@@ -30,9 +30,3 @@ These links go to documentation for various tools created by Donut Team.
     * [Additional Script Functionality](lucasmodlauncher/hacks/asf/intro.md)
     * [Custom Files](lucasmodlauncher/hacks/cf/intro.md)
     * [SHAR MP](sharmp/intro.md)
-
-# Mods
-These links go to documentation about various mods we've created.
-
-* [Donut Mod](donutmod/intro.md) (Version History Only)
-* [Roofed Family Sedan (Donut Mod Version)](mods/roofed-family-sedan.md)
