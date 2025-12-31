@@ -1,0 +1,79 @@
+# DT Docs
+This repository contains Markdown files and other configuration data for Donut Team's documentation website, DT Docs.
+
+## Contributing
+TODO: write contributor guidelines
+
+## Document Front Matter
+Documents contain YAML front matter declaring various attributes.
+
+The available keys are as follows, with **required keys in bold**:
+
+* **title** (string): The title of the document.
+* **description** (string): A brief description of the document.
+
+## Custom Markdown Features
+While DT Docs utilizes fairly standard Markdown, there are various custom extensions implemented on top.
+
+### Block Tokens
+#### Tabs
+You can add tabs, typically used to show code in multiple languages, using this syntax:
+```
+{{ tabs }}
+{{ tab Tab 1 }}
+I'm the first tab!
+{{ endtab }}
+{{ tab Tab 2 }}
+I'm the second tab!
+{{ endtab }}
+{{ endtabs }}
+```
+
+Nested tabs are not supported.
+
+#### Video
+You can embed videos from either a direct URL (currently only URLs ending with .mp4 are supported):
+```
+!![https://donut-team.nyc3.cdn.digitaloceanspaces.com/example.mp4]
+```
+
+Or from YouTube:
+```
+!![https://www.youtube.com/watch/dQw4w9WgXcQ]
+```
+
+### Inline Tokens
+#### Document Reference
+You can reference another document in a manner similar to MediaWiki's internal link syntax:
+```
+[[LucasRadMusicScriptBuilder/Intro.md]]
+```
+
+When referencing a document, the name of the document will be inserted by default. If you want some other text, use a separator bar and specify it:
+```
+[[LucasRadMusicScriptBuilder/Intro.md|custom link text]]
+```
+
+Paths can be relative to the document the reference is in, or absolute if they start with a /.
+
+If the document does not exist, this will instead display the text "Invalid Document".
+
+#### Donut Team User Reference
+You can reference a Donut Team user by their ID as follows:
+```
+<@2>
+```
+
+Because user references use IDs, they will never break and they will also show the user's preferred name.
+
+If the user disables or deletes their Donut Team account, this will instead display the text "Deleted User".
+
+#### Mod Bakery Project Reference
+You can reference a Mod Bakery project inline as follows:
+```
+[Project:6]
+```
+
+Because project references use IDs, they will never break and they will also show the project's current title.
+
+If the project is not published, this will instead display the text "Unpublished Project".
