@@ -1,7 +1,7 @@
 ---
-title: SetIrisTransition
+title: "SetIrisTransition"
 description: "Sets whether or not there should be an iris transition upon entering a vehicle."
-authors: ["borb"]
+authors: [ 104 ]
 ---
 
 This command sets whether or not there should be an iris transition upon entering a vehicle.
@@ -38,4 +38,4 @@ Game.SetIrisTransition(0)
 {{ endtabs }}
 
 # Notes
-This command overrides [SetHasDoors](sethasdoors.md) in the event that both are present.
+This command overrides [[SetHasDoors.md]] in the event that both are present.

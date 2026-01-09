@@ -1,7 +1,7 @@
 ---
-title: SetDriver
+title: "SetDriver"
 description: "Sets the driver of a vehicle."
-authors: ["loren"]
+authors: [ 2 ]
 ---
 
 This command sets the driver of a vehicle.
@@ -21,7 +21,7 @@ Game.SetDriver( character )
 {{ endtabs }}
 
 * **character**: The name of the character who will drive the vehicle.
-	* This character will only appear if they're not suppressed with [SuppressDriver](../mfk-commands/suppressdriver.md) in the level's load script.
+	* This character will only appear if they're not suppressed with [[SuppressDriver.md]] in the level's load script.
 
 # Examples
 {{ tabs }}

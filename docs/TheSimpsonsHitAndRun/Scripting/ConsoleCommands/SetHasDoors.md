@@ -1,7 +1,7 @@
 ---
-title: SetHasDoors
+title: "SetHasDoors"
 description: "Sets whether or not the player character opens the door upon entering a vehicle."
-authors: ["borb"]
+authors: [ 104 ]
 ---
 
 This command sets whether or not the player character opens the door upon entering a vehicle.
@@ -38,4 +38,4 @@ Game.SetHasDoors(1)
 {{ endtabs }}
 
 # Notes
-This command is overridden by [SetIrisTransition](setiristransition.md) in the event that both are present.
+This command is overridden by [[SetIrisTransition.md]] in the event that both are present.

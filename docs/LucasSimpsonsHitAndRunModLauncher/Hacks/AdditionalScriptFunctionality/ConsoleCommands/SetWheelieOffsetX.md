@@ -1,12 +1,12 @@
 ---
-title: SetWheelieOffsetX
+title: "SetWheelieOffsetX"
 description: "Sets the X offset of the vehicle's center of mass when performing a wheelie."
-authors: ["borb"]
-summary:
-    initialVersion: "1.26"
+authors: [ 104 ]
 ---
 
-This command sets the X offset of the vehicle's center of mass when performing a wheelie. In order to perform a wheelie, the vehicle must be stopped or nearly stopped.
+This command sets the X offset of the vehicle's center of mass when performing a wheelie.
+
+In order to perform a wheelie, the vehicle must be stopped or nearly stopped.
 
 # Syntax
 {{ tabs }}
@@ -39,7 +39,7 @@ Game.SetWheelieOffsetX(0.2)
 {{ endtabs }}
 
 # Notes
-See [SetWheelieOffsetY](/hitandrun/scripting/con-commands/setwheelieoffsety.md) and [SetWheelieOffsetZ](/hitandrun/scripting/con-commands/setwheelieoffsetz.md) to set offsets for the other two axes.
+See [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetWheelieOffsetY.md]] and [[/TheSimpsonsHitAndRun/Scripting/ConsoleCOmmands/SetWheelieOffsetZ.md]] to set offsets for the other two axes.
 
 # History
 ## 1.26

@@ -17,6 +17,37 @@
 					[
 						"TheSimpsonsHitAndRun/Intro.md",
 						"TheSimpsonsHitAndRun/CommandLineArguments.md",
+						{
+							type: "Group",
+							name: "Scripting",
+							children:
+							[
+								{
+									type: "Group",
+									name: "Console Commands",
+									children:
+									[
+										{
+											type: "Group",
+											name: "CON Commands",
+											children:
+											[
+												"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetAllowSeatSlide.md",
+												"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetCharacterScale.md",
+												"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetCharactersVisible.md",
+												"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetDriver.md",
+												"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetHasDoors.md",
+												"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetIrisTransition.md",
+												"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetWeebleOffset.md",
+												"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetWheelieOffsetY.md",
+												"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetWheelieOffsetZ.md",
+												"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetWheelieRange.md",
+											],
+										},
+									],
+								},
+							],
+						},
 					],
 				},
 			],

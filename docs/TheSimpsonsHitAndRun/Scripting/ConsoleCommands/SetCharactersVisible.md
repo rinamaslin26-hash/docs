@@ -1,7 +1,7 @@
 ---
-title: SetCharactersVisible
+title: "SetCharactersVisible"
 description: "Sets the visibility of the driver and the passenger in a vehicle."
-authors: ["loren", "borb"]
+authors: [ 2, 104 ]
 ---
 
 This command sets the visibility of the driver and the passenger in a vehicle.
@@ -36,6 +36,3 @@ Game.SetCharactersVisible(1)
 ```
 {{ endtab }}
 {{ endtabs }}
-
-# Notes
-No additional notes.

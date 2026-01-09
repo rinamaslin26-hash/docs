@@ -1,7 +1,7 @@
 ---
-title: SetCharacterScale
+title: "SetCharacterScale"
 description: "Sets the scale of the driver and the passenger in a vehicle."
-authors: ["loren"]
+authors: [ 2 ]
 ---
 
 This command sets the scale of the driver and the passenger in a vehicle.
@@ -36,6 +36,3 @@ Game.SetCharacterScale(1)
 ```
 {{ endtab }}
 {{ endtabs }}
-
-# Notes
-No additional notes.

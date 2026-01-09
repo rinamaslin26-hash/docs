@@ -1,10 +1,21 @@
 // This file configures redirects for various documents that have been removed or relocated in a manner that the site cannot automatically handle
 // Using null indicates that a document has been explicitly removed and there is no substitute
+// TODO: redirect old version docs to individual MB version pages when those actually exist
 {
 	"hitandrun/resources/donut-team/art/additional-characters": "https://modbakery.donutteam.com/projects/view/38",
 	"hitandrun/resources/donut-team/art/radical-hud-icon-template": "https://modbakery.donutteam.com/projects/view/40",
-	"hitandrun/resources/donut-team/scripts/game-lua": "https://modbakery.donutteam.com/projects/view/39"
+	"hitandrun/resources/donut-team/scripts/game-lua": "https://modbakery.donutteam.com/projects/view/39",
 	"hitandrun/resources/all-resources": "https://modbakery.donutteam.com/projects/children/86/resource-packs",
+	"hitandrun/scripting/con-commands/setallowseatslide": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetAllowSeatSlide",
+	"hitandrun/scripting/con-commands/setcharacterscale": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetCharacterScale",
+	"hitandrun/scripting/con-commands/setcharactersvisible": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetCharactersVisible",
+	"hitandrun/scripting/con-commands/setdriver": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetDriver",
+	"hitandrun/scripting/con-commands/sethasdoors": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetHasDoors",
+	"hitandrun/scripting/con-commands/setiristransition": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetIrisTransition",
+	"hitandrun/scripting/con-commands/setweebleoffset": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetWeebleOffset",
+	"hitandrun/scripting/con-commands/setwheelieoffsety": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetWheelieOffsetY",
+	"hitandrun/scripting/con-commands/setwheelieoffsetz": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetWheelieOffsetZ",
+	"hitandrun/scripting/con-commands/setwheelierange": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetWheelieRange",
 	"hitandrun/command-line-arguments": "TheSimpsonsHitAndRun/CommandLineArguments",
 	"hitandrun/intro": "TheSimpsonsHitAndRun/Intro",
 
@@ -17,6 +28,8 @@
 	"lucasmapdataviewer/versions/version_1.0.1": null,
 	"lucasmapdataviewer/versions/version_1.0.2": null,
 	"lucasmapdataviewer/intro": "LucasSimpsonsHitAndRunMapDataViewer/Intro",
+
+	"lucasmodlauncher/hacks/asf/con-commands/setwheelieoffsetx": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetWheelieOffsetX",
 
 	"lucasp3deditor/versions/blender-addon/all-versions": null,
 	"lucasp3deditor/versions/blender-addon/version_1.0": null,

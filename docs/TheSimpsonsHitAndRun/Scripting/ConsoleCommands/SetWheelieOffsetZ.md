@@ -1,10 +1,12 @@
 ---
-title: SetWheelieOffsetZ
+title: "SetWheelieOffsetZ"
 description: "Sets the Z offset of the vehicle's center of mass when performing a wheelie."
-authors: ["borb"]
+authors: [ 104 ]
 ---
 
-This command sets the Z offset of the vehicle's center of mass when performing a wheelie. In order to perform a wheelie, the vehicle must be stopped or nearly stopped.
+This command sets the Z offset of the vehicle's center of mass when performing a wheelie.
+
+In order to perform a wheelie, the vehicle must be stopped or nearly stopped.
 
 # Syntax
 {{ tabs }}
@@ -37,4 +39,4 @@ Game.SetWheelieOffsetZ(0.2)
 {{ endtabs }}
 
 # Notes
-See [SetWheelieOffsetX](/lucasmodlauncher/hacks/asf/con-commands/setwheelieoffsetx.md) and [SetWheelieOffsetY](/hitandrun/scripting/con-commands/setwheelieoffsety.md) to set offsets for the other two axes.
+See [[/LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetWheelieOffsetX.md]] and [[SetWheelieOffsetY.md]] to set offsets for the other two axes.
