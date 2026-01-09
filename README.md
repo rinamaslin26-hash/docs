@@ -11,6 +11,7 @@ The available keys are as follows, with **required keys in bold**:
 
 * **title** (string): The title of the document.
 * **description** (string): A brief description of the document.
+* authors (number[]): An array of Donut Team User IDs representing the authors of this document.
 
 ## Custom Markdown Features
 While DT Docs utilizes fairly standard Markdown, there are various custom extensions implemented on top.
