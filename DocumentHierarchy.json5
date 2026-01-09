@@ -97,6 +97,22 @@
 								},
 							],
 						},
+						{
+							type: "Group",
+							name: "Dialogue Transcriptions",
+							children:
+							[
+								"TheSimpsonsHitAndRun/DialogueTranscriptions/AgnesSkinner.md",
+								"TheSimpsonsHitAndRun/DialogueTranscriptions/ApuNahasapeemapetilon.md",
+								"TheSimpsonsHitAndRun/DialogueTranscriptions/BarneyGumble.md",
+								"TheSimpsonsHitAndRun/DialogueTranscriptions/BumblebeeMan.md",
+								"TheSimpsonsHitAndRun/DialogueTranscriptions/CarlCarlson.md",
+								"TheSimpsonsHitAndRun/DialogueTranscriptions/DolphStarbeam.md",
+								"TheSimpsonsHitAndRun/DialogueTranscriptions/DrNick.md",
+								"TheSimpsonsHitAndRun/DialogueTranscriptions/GenericCharacters.md",
+								"TheSimpsonsHitAndRun/DialogueTranscriptions/GilGunderson.md",
+							],
+						},
 					],
 				},
 			],
