@@ -6,6 +6,9 @@ authors: [ 104 ]
 
 This command sets whether or not there should be an iris transition upon entering a vehicle.
 
+# Scope
+{{ Snippet:TheSimpsonsHitAndRun/ConsoleCommands/Scopes/CarCon.md }}
+
 # Syntax
 {{ tabs }}
 {{ tab MFK }}

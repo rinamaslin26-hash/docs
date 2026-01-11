@@ -6,6 +6,9 @@ authors: [ 104 ]
 
 This command sets whether or not the player character opens the door upon entering a vehicle.
 
+# Scope
+{{ Snippet:TheSimpsonsHitAndRun/ConsoleCommands/Scopes/CarCon.md }}
+
 # Syntax
 {{ tabs }}
 {{ tab MFK }}

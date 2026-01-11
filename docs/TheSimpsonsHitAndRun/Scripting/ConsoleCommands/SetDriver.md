@@ -6,6 +6,9 @@ authors: [ 2 ]
 
 This command sets the driver of a vehicle.
 
+# Scope
+{{ Snippet:TheSimpsonsHitAndRun/ConsoleCommands/Scopes/CarCon.md }}
+
 # Syntax
 {{ tabs }}
 {{ tab MFK }}

@@ -6,6 +6,9 @@ authors: [ 104 ]
 
 This command sets the Y offset of the vehicle's center of mass when in the air.
 
+# Scope
+{{ Snippet:TheSimpsonsHitAndRun/ConsoleCommands/Scopes/CarCon.md }}
+
 # Syntax
 {{ tabs }}
 {{ tab MFK }}
