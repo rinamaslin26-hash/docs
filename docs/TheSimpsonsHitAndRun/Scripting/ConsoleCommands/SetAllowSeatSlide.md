@@ -7,7 +7,7 @@ authors: [ 104 ]
 This command sets whether or not the player is allowed to slide into the driver's seat from the passenger's seat.
 
 # Scope
-{{ Snippet:TheSimpsonsHitAndRun/ConsoleCommands/Scopes/CarCon.md }}
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/CarCon.md }}
 
 # Syntax
 {{ tabs }}

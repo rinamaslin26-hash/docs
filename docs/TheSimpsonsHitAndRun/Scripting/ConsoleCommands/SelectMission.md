@@ -7,7 +7,7 @@ authors: [ 2 ]
 This command sets what mission is about to be initialised.
 
 # Scope
-{{ Snippet:TheSimpsonsHitAndRun/ConsoleCommands/Scopes/MissionInit.md }}
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInit.md }}
 
 # Syntax
 {{ tabs }}
@@ -26,4 +26,4 @@ Game.SelectMission( mission )
 * **mission**: The ID of the mission that's about to be initialised.
 
 # Examples
-{{ Snippet:TheSimpsonsHitAndRun/ConsoleCommands/Examples/MinimalMission.md }}
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Examples/MinimalMission.md }}

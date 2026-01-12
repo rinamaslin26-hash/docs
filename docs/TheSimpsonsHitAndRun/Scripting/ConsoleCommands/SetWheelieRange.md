@@ -9,7 +9,7 @@ This command sets the distance for which a vehicle will perform a wheelie when a
 In order to perform a wheelie, the vehicle must be stopped or nearly stopped.
 
 # Scope
-{{ Snippet:TheSimpsonsHitAndRun/ConsoleCommands/Scopes/CarCon.md }}
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/CarCon.md }}
 
 # Syntax
 {{ tabs }}

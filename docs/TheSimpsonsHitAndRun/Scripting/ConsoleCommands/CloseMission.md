@@ -7,7 +7,7 @@ authors: [ 2 ]
 This command closes a mission that was being initialised.
 
 # Scope
-{{ Snippet:TheSimpsonsHitAndRun/ConsoleCommands/Scopes/MissionInit.md }}
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInit.md }}
 
 # Syntax
 {{ tabs }}
@@ -24,4 +24,4 @@ Game.CloseMission()
 {{ endtabs }}
 
 # Examples
-{{ Snippet:TheSimpsonsHitAndRun/ConsoleCommands/Examples/MinimalMission.md }}
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Examples/MinimalMission.md }}

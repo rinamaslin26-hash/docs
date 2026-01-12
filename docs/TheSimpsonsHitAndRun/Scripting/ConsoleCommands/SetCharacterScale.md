@@ -7,7 +7,7 @@ authors: [ 2 ]
 This command sets the scale of the driver and the passenger in a vehicle.
 
 # Scope
-{{ Snippet:TheSimpsonsHitAndRun/ConsoleCommands/Scopes/CarCon.md }}
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/CarCon.md }}
 
 # Syntax
 {{ tabs }}

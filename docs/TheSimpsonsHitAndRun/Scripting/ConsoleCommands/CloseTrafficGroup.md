@@ -7,7 +7,7 @@ authors: [ 2 ]
 This command closes a traffic group.
 
 # Context
-{{ Snippet:TheSimpsonsHitAndRun/ConsoleCommands/Scopes/LevelInit.md }}
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/LevelInit.md }}
 
 # Syntax
 {{ tabs }}

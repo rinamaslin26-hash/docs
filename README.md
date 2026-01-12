@@ -20,7 +20,7 @@ While DT Docs utilizes fairly standard Markdown, there are various custom extens
 #### Document Snippets
 You can reference a reusable block of Markdown, located within this repo's `snippets` folder, using this syntax:
 ```
-{{ Snippet:TheSimpsonsHitAndRun/ConsoleCommands/Scopes/CarCon.md }}
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/CarCon.md }}
 ```
 
 #### Tabs
@@ -62,6 +62,8 @@ When referencing a document, the name of the document will be inserted by defaul
 ```
 
 Paths can be relative to the document the reference is in, or absolute if they start with a /.
+
+If used within a document snippet, the path must be absolute.
 
 If the document does not exist, this will instead display the text "Invalid Document".
 
