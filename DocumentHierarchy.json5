@@ -113,13 +113,27 @@
 															name: "Level Initialisation",
 															children:
 															[
-																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreatePedGroup.md",
-																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddPed.md",
-																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ClosePedGroup.md",
+																{
+																	type: "Group",
+																	name: "Ped Groups",
+																	children:
+																	[
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreatePedGroup.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddPed.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ClosePedGroup.md",
+																	],
+																},
 
-																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreateTrafficGroup.md",
-																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddTrafficModel.md",
-																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseTrafficGroup.md",
+																{
+																	type: "Group",
+																	name: "Traffic Groups",
+																	children:
+																	[
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreateTrafficGroup.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddTrafficModel.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseTrafficGroup.md",
+																	],
+																},
 															],
 														},
 														{
@@ -131,39 +145,42 @@
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseMission.md",
 
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/UsePedGroup.md",
-															],
-														},
-														{
-															type: "Group",
-															name: "Stage Initialisation",
-															children:
-															[
-																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStage.md",
-																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseStage.md",
 
-																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStageTime.md",
-																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/RESET_TO_HERE.md",
-																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetHUDIcon.md",
-																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetStageMessageIndex.md",
-																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetStageTime.md",
-															],
-														},
-														{
-															type: "Group",
-															name: "Objective Initialisation",
-															children:
-															[
-																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddObjective.md",
-																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseObjective.md",
-															],
-														},
-														{
-															type: "Group",
-															name: "Condition Initialisation",
-															children:
-															[
-																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddCondition.md",
-																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseCondition.md",
+																{
+																	type: "Group",
+																	name: "Stages",
+																	children:
+																	[
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStage.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseStage.md",
+
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStageTime.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/RESET_TO_HERE.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetHUDIcon.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetStageMessageIndex.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetStageTime.md",
+
+																		{
+																			type: "Group",
+																			name: "Objectives",
+																			children:
+																			[
+																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddObjective.md",
+																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseObjective.md",
+																			],
+																		},
+
+																		{
+																			type: "Group",
+																			name: "Conditions",
+																			children:
+																			[
+																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddCondition.md",
+																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseCondition.md",
+																			],
+																		},
+																	],
+																},
 															],
 														},
 													],
