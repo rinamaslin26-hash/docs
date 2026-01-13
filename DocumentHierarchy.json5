@@ -32,6 +32,8 @@
 											children:
 											[
 												"Pure3DFiles/ChunkTypes/0x3F0000B.md",
+												"Pure3DFiles/ChunkTypes/0x3F00003.md",
+												"Pure3DFiles/ChunkTypes/0x3F00004.md",
 												"Pure3DFiles/ChunkTypes/0x300000C.md",
 												"Pure3DFiles/ChunkTypes/0x3000005.md",
 												"Pure3DFiles/ChunkTypes/0x3000006.md",
@@ -274,6 +276,8 @@
 									children:
 									[
 										"TheSimpsonsHitAndRun/ActionLocatorTypes.md",
+										"TheSimpsonsHitAndRun/Cameras.md",
+										"TheSimpsonsHitAndRun/Cheats.md",
 										"TheSimpsonsHitAndRun/DynaLoadData.md",
 										"TheSimpsonsHitAndRun/Events.md",
 									],
