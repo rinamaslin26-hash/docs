@@ -25,7 +25,7 @@
 									name: "Pure3D Files",
 									children:
 									[
-										"Pure3DFiles/DataStructure",
+										"Pure3DFiles/DataStructure.md",
 										{
 											type: "Group",
 											name: "Chunk Types",
@@ -281,9 +281,14 @@
 									[
 										"TheSimpsonsHitAndRun/ActionLocatorTypes.md",
 										"TheSimpsonsHitAndRun/Cameras.md",
+										"TheSimpsonsHitAndRun/Characters.md",
 										"TheSimpsonsHitAndRun/Cheats.md",
+										"TheSimpsonsHitAndRun/CollisionClassTypes.md",
 										"TheSimpsonsHitAndRun/DynaLoadData.md",
 										"TheSimpsonsHitAndRun/Events.md",
+										"TheSimpsonsHitAndRun/MainMenuCameraAnimations.md",
+										"TheSimpsonsHitAndRun/Softlocks.md",
+										"TheSimpsonsHitAndRun/VehicleBehaviours.md",
 									],
 								}
 							],

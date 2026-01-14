@@ -1,6 +1,7 @@
 ---
-title: Softlocks
+title: "Softlocks"
 description: "This page documents some ways to softlock the game."
+authors: [ 2 ]
 ---
 
 This page documents some ways to softlock the game.
@@ -29,7 +30,7 @@ CloseStage();
 // This stage will play the specified dialogue with the aforementioned oddities.
 AddStage(1);
 	AddObjective("dialogue");
-		...
+		// ...
 	CloseObjective();
 CloseStage();
 
@@ -42,4 +43,6 @@ AddStage();
 CloseStage();
 ```
 
-A video showcasing this softlock can be found [here](https://www.youtube.com/watch?v=Ajti0DfjOnE).
+Here is a video showcasing this softlock:
+
+!![https://www.youtube.com/watch?v=Ajti0DfjOnE]

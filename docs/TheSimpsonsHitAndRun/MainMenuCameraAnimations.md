@@ -1,18 +1,16 @@
 ---
-title: Main Menu Camera Animation
-description: "This page contains information about the main menu's camera animation."
-authors: ["loren", "lucasc190"]
+title: "Main Menu Camera Animation"
+description: "Information about the main menu's camera animation."
+authors: [ 2, 395 ]
 ---
 
-The main menu's camera animation is actually just one animation.
+The main menu uses a single camera animation, playing specific sections of it depending on which parts of the menu you are navigating to/from.
 
 The animation is located in `art\frontend\scrooby\resource\pure3d\camset.p3d` and is titled `CAM_FE_Camera`.
 
-The game hardcodedly plays certain frames of this animation when you select options on the menu.
+Which sections are played when are outlined in the table below:
 
-This page documents which frames are used for what action.
-
-| Start frame | End frame | Description           | Use                                |
+| Start Frame | End Frame | Description           | Use                                |
 |-------------|-----------|-----------------------|------------------------------------|
 | 0           | 53        | Main To Newspaper     | New Game                           |
 | 80          | 110       | Main To Couch         | Main To Options                    |
