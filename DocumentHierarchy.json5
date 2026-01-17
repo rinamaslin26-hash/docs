@@ -121,7 +121,15 @@
 													name: "MFK Commands",
 													children:
 													[
-														"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/LoadP3DFile.md",
+														{
+															type: "Group",
+															name: "General",
+															children:
+															[
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/InitLevelPlayerVehicle.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/LoadP3DFile.md",
+															],
+														},
 														{
 															type: "Group",
 															name: "Reward Initialisation",
@@ -165,7 +173,6 @@
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddSpawnPointByLocatorScript.md",
 																	],
 																},
-
 																{
 																	type: "Group",
 																	name: "Chase Manager",
@@ -177,7 +184,6 @@
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetNumChaseCars.md",
 																	],
 																},
-
 																{
 																	type: "Group",
 																	name: "NPCs",
@@ -186,7 +192,6 @@
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPCCharacterBonusMission.md",
 																	],
 																},
-
 																{
 																	type: "Group",
 																	name: "Ped Groups",
@@ -197,7 +202,6 @@
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ClosePedGroup.md",
 																	],
 																},
-
 																{
 																	type: "Group",
 																	name: "Traffic Groups",
@@ -219,7 +223,10 @@
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseMission.md",
 
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetDynaLoadData.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetForcedCar.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetInitialWalk.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetMissionResetPlayerInCar.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetMissionResetPlayerOutCar.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/StreetRacePropsLoad.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/StreetRacePropsUnload.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/UsePedGroup.md",
@@ -242,8 +249,10 @@
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetHUDIcon.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetIrisWipe.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetMaxTraffic.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetMusicState.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetStageMessageIndex.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetStageTime.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/StageStartMusicEvent.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/UseElapsedTime.md",
 
 																		{
@@ -257,7 +266,6 @@
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetDurationTime.md",
 																			],
 																		},
-
 																		{
 																			type: "Group",
 																			name: "Conditions",
@@ -269,6 +277,14 @@
 																		},
 																	],
 																},
+															],
+														},
+														{
+															type: "Group",
+															name: "Miscellaneous",
+															children:
+															[
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/KillAllChaseAI.md",
 															],
 														},
 													],

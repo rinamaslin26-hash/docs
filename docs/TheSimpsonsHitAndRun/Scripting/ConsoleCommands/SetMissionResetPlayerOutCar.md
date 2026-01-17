@@ -1,13 +1,13 @@
 ---
-title: SetMissionResetPlayerOutCar
+title: "SetMissionResetPlayerOutCar"
 description: "Sets the positions where the player and their vehicle are placed upon restarting a mission."
-authors: ["colou"]
+authors: [ 2116 ]
 ---
 
 Sets the positions where the player and their vehicle are placed upon restarting a mission.
 
-# Context
-{{ snippet hitandrun/command-contexts/mission-init-root }}
+# Scope
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitInner.md }}
 
 # Syntax
 {{ tabs }}
@@ -23,20 +23,20 @@ Game.SetMissionResetPlayerOutCar( player_locator, vehicle_locator )
 {{ endtab }}
 {{ endtabs }}
 
-* **player_locator**: The name of the [Type 3 Locator](/pure3d/chunk-types/chunk-3000005.md#this_types_type3) where the player is placed.
-* **vehicle_locator**: The name of the [Type 3 Locator](/pure3d/chunk-types/chunk-3000005.md#this_types_type3) where the player's vehicle is placed.
+* **player_locator**: The name of the [[/Pure3DFiles/ChunkTypes/Locator.md|CarStart Locator]] where the player is placed.
+* **vehicle_locator**: The name of the [[/Pure3DFiles/ChunkTypes/Locator.md|CarStart Locator]] where the player's vehicle is placed.
 
 # Examples
 {{ tabs }}
 {{ tab MFK }}
 ```js
 SelectMission("m1");
-	...
+	// ...
 
 	SetMissionResetPlayerOutCar("m4_homer_start", "m4_carstart");
 
 	AddStage();
-		...
+		// ...
 	CloseStage();
 CloseMission();
 ```
@@ -44,12 +44,12 @@ CloseMission();
 {{ tab Lua }}
 ```lua
 Game.SelectMission("m1")
-	...
+	-- ...
 
 	Game.SetMissionResetPlayerOutCar("m4_homer_start", "m4_carstart")
 
 	Game.AddStage()
-		...
+		-- ...
 	Game.CloseStage()
 Game.CloseMission()
 ```
@@ -57,4 +57,4 @@ Game.CloseMission()
 {{ endtabs }}
 
 # Notes
-When both this command and [SetMissionResetPlayerInCar](/hitandrun/scripting/mfk-commands/setmissionresetplayerincar.md) are used, the player will be placed at the **player_locator** from **SetMissionResetPlayerOutCar**, and the vehicle will be placed at whichever **vehicle_locator** is specified last in the script.
+When both this command and [[SetMissionResetPlayerInCar.md]] are used, the player will be placed at the **player_locator** from this command, and the vehicle will be placed at whichever **vehicle_locator** is specified last in the script.

@@ -4,13 +4,37 @@ description: "Closes an objective in a stage in a mission."
 authors: [ 2 ]
 ---
 
-TODO
+Closes an objective in a stage in a mission.
 
 # Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scope/MissionInitStage.md }}
 
 # Syntax
-TODO
+{{ tabs }}
+{{ tab MFK }}
+```js
+CloseObjective();
+```
+{{ endtab }}
+{{ tab Lua }}
+```lua
+Game.CloseObjective()
+```
+{{ endtab }}
+{{ endtabs }}
 
 # Examples
-TODO
+{{ tabs }}
+{{ tab MFK }}
+```js
+AddObjective("dummy");
+CloseObjective();
+```
+{{ endtab }}
+{{ tab Lua }}
+```lua
+Game.AddObjective("dummy")
+Game.CloseObjective()
+```
+{{ endtab }}
+{{ endtabs }}

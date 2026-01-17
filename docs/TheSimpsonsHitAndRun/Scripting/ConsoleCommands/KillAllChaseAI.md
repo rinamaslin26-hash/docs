@@ -1,13 +1,11 @@
 ---
-title: KillAllChaseAI
-#description: "TODO"
-status:
-    class: "stub"
+title: "KillAllChaseAI"
+description: "TODO"
 ---
 
 TODO
 
-# Context
+# Scope
 TODO
 
 # Syntax
@@ -39,6 +37,3 @@ TODO
 ```
 {{ endtab }}
 {{ endtabs }}
-
-# Notes
-No additional notes.
