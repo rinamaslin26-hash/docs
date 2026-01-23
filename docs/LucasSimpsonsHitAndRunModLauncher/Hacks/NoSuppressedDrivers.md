@@ -1,15 +1,16 @@
 ---
-title: No Suppressed Drivers
+title: "No Suppressed Drivers"
 description: "This hack disables suppressed drivers, meaning characters will always show up driving their vehicles regardless of who the level suppresses."
+authors: [ 2 ]
 ---
 
-**This is a [setting hack](all-hacks.md#setting-hacks) that can be enabled on the "Settings" page of the Mods List.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/headers/CanBeEnabledOnSettingsPage.md }}
 
 This hack disables suppressed drivers, meaning characters will always show up driving their vehicles regardless of who the level suppresses.
 
 # Version History
 ## 1.23
-Added a description to this hack.
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23/NoSuppressedDrivers.md }}
 
 ## 1.18
-Added this hack.
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/NoSuppressedDrivers.md }}

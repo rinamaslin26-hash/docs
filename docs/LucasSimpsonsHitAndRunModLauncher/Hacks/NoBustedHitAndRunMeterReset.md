@@ -1,9 +1,10 @@
 ---
-title: No Busted Hit & Run Meter Reset
+title: "No Busted Hit & Run Meter Reset"
 description: "This makes it so the Hit & Run meter will not reset and the music will not end when you get busted by the police."
+authors: [ 2 ]
 ---
 
-**This hack must be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This makes it so the Hit & Run meter will not reset and the music will not end when you get busted by the police.
 
@@ -18,4 +19,4 @@ RequiredHack=NoBustedHitAndRunMeterReset
 
 # Version History
 ## 1.23.6
-Added this hack.
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.6/NoBustedHitAndRunMeterReset.md }}

@@ -1,0 +1,1 @@
+Added settings to this hack and added the ability to freeze timer objectives.
