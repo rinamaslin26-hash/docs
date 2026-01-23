@@ -1,9 +1,10 @@
 ---
-title: Creating Mods
+title: "Creating Mods"
 description: "This page documents the basics of creating a mod."
+authors: [ 2 ]
 ---
 
-Creating a mod is as simple as creating a folder inside any valid [Mod Directory](installing-mods.md#where-do-i-put-mods) with a file named `Meta.ini` inside it.
+Creating a mod is as simple as creating a folder inside any valid mods folder (see [[InstallingMods.md]] for details) with a file named `Meta.ini` inside it.
 
 This file contains information about the mod such as the title, description(s), required hacks and authors. 
 
@@ -28,6 +29,6 @@ For example, a mod that just wants to override one file in the game folder would
 RequiredHack=CustomFiles
 ```
 
-For more detailed information about configuring the mod itself and the structure of a mod folder, see [Configuring Mods](configuring-mods.md).
+For more detailed information about configuring the mod itself and the structure of a mod folder, see [[ConfiguringMods.md]].
 
-For more detailed information about which hacks are requirable and which ones are also configurable see the list of [Mod Requirable hacks](../hacks/all-hacks#mod-requirable-hacks) and the individual pages for each hack.
+For more detailed information about which hacks are requirable and which ones are also configurable, see the [[../Hacks/Intro.md]] and the individual pages for each hack.

@@ -19,32 +19,33 @@ It has been actively maintained since 2013 and has gained a wide array of featur
 	* Discord Rich Presence
 	* Support for any aspect ratio and resolution.
 	* XInput
-* [Donut Team Account Integration](dt-account-integration.md)
-	* Allows you to share when you play the game with the Donut Team community.
+* [[DonutTeamAccountIntegration.md]] (Optional)
 
-Nearly every feature of the Mod Launcher is optional and can be toggled at your discretion via the Mods List, [Launcher Settings](settings.md) or [Command Line Arguments](command-line-arguments.md).
+Nearly every feature of the Mod Launcher is optional and can be toggled at your discretion via the Mods List, [[Settings.md]] or [[CommandLineArguments.md]].
 
-Backwards compatibility with old mods is a very important feature to us and we always strive to maintain it with every update to the program. A mod made for the Mod Launcher in 2013 will still work today!
+Full backwards compatibility with old mods is a very important feature to us. We always strive to maintain it with each update. This means a mod made for the Mod Launcher in 2013 will still work today!
 
 # Download
-This tool is available from the [Donut Team downloads page](https://donutteam.com/downloads/Launcher).
+This tool is available on Mod Bakery: [Project:6]
+
+**This tool does NOT include the game itself. You will have to acquire it yourself.**
 
 # Setup
-For a guide on setting up the Mod Launcher, see [Setting up the Mod Launcher](setup.md).
+For a guide on setting up the Mod Launcher, see [[Setup.md]].
 
 # Localisation
-To learn how to localise the Mod Launcher and browse available language packs, see [Language Localisation](localisation.md).
+To learn how to localise the Mod Launcher and browse available language packs, see [[LanguageLocalisation.md]].
 
 # Included Mods & Hacks
-For a list of all included mods, see [Included Mods](mods/included-mods.md).
+For a list of all included mods, see [[Mods/IncludedMods.md]].
 
-For a list of all included hacks, see [All Hacks](hacks/all-hacks.md).
+For a list of all included hacks, see [[Hacks/AllHacks.md]].
 
 # Installing Mods
-To learn how to install mods, see [Installing Mods](mods/installing-mods.md).
+To learn how to install mods, see [[Mods/InstallingMods.md]].
 
 # Creating Mods
-To get started learning how to create your own mods, see [Creating Mods](mods/creating-mods.md).
+To get started learning how to create your own mods, see [[Mods/CreatingMods.md]].
 
 # Version History
-For the version history of the Mod Launcher, see the [All Versions](versions/all-versions.md) page.
+For the version history of the Mod Launcher, see the **Downloads** tab on Mod Bakery: [Project:6]

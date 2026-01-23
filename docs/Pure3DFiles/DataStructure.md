@@ -1,6 +1,6 @@
 ---
 title: "Data Structure"
-description: "Information on the data structure of the Pure3D Files used in various games created by Radical Entertainment."
+description: "Information on the data structure of Pure3D Files."
 authors: [ 2 ]
 ---
 
@@ -8,8 +8,6 @@ Pure3D files are at least 12 bytes and contain 3 basic pieces of information:
 
 * The file header.
 * The length of the header.
-
-This is general documentation of the Pure3D file format used in various games created by Radical Entertainment.
 
 # Format
 Pure3D files are made up of at least one chunk, the root chunk. Chunks can contain other chunks, forming a hierarchy inside the file.

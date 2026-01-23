@@ -1,6 +1,7 @@
 ---
-title: Installing Mods
+title: "Installing Mods"
 description: "This page explains how to install mods."
+authors: [ 2 ]
 ---
 
 While you could simply enjoy the game as is, you can also install additional mods made by Donut Team or the community to enhance the game further.
@@ -8,21 +9,16 @@ While you could simply enjoy the game as is, you can also install additional mod
 Mods come in two forms, as a folder and as Lucas Mod Launcher Mod file (.lmlm). The install process for both is the same.
 
 # 1. Downloading Mods
-There are a number of places to get mods from, here are the main ones:
+The best place to get mods from is our mod sharing and discovery platform, [Mod Bakery](https://modbakery.donutteam.com/).
 
-* For Donut Team mods, you can check out the various categories on our [downloads page](https://donutteam.com/downloads/).
-* For community mods, you can check out the following links:
-    * [Community Forum](https://donutteam.com/forum/)
-        * [Mod Showcase Board](https://donutteam.com/forum/board/shar-mod-showcase/)
-        * [Mod Release Flair](https://donutteam.com/forum/flairs/2)
+You can also find older mods posted before the launch of Mod Bakery on the Donut Team forum's [Mod Showcase Board](https://forum.donutteam.com/board/shar-mod-showcase/) and its [Released Flair](https://forum.donutteam.com/flairs/2/).
 
 # 2. Installing Mods
-## Where do I put mods?
 There are a few folders where you can install mods:
 
 * The "Mods" folder next to the Mod Launcher.
 * The "Mods" folder in "Documents\My Games\Lucas' Simpsons Hit & Run Mod Launcher\Mods"
-* Any [Additional Mods Folders](../settings.md#additional-mods-tab) you have specified in [Launcher Settings](../settings.md).
+* Any additional mods folders you have specified in the Launcher's [[../Settings.md]].
 
 Any of these locations can have subfolders for further organisation of mods by creating folders with square brackets in the name, for example: `[Campaign Mods]`.
 
@@ -38,4 +34,4 @@ If it's a .RAR or .7z file, you can use [7-Zip](https://www.7-zip.org/) to extra
 # 3. Enabling Mods
 Once you've installed the mods you want to use, you can simply enable them by ticking them in the Mods List.
 
-![mods list](/img/lucasmodlauncher/misc/enabling-mods.png)
+![mods list](/img/LucasSimpsonsHitAndRunModLauncher/EnablingMods.png)
