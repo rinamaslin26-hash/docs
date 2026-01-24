@@ -1,6 +1,6 @@
 ---
 title: "No Saved Games"
-description: "This hack removes the ability to save and load saved games."\
+description: "This hack removes the ability to save and load saved games."
 authors: [ 2 ]
 ---
 
