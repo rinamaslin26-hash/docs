@@ -3,8 +3,9 @@ title: "hitandrunlost"
 description: "Fail the player if they lose their Hit & Run."
 authors: [ 2 ]
 initialVersion:
-	project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
-	projectBranchVersion_id: 380 # 1.18.1
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main Branch
+  projectBranchVersion_id: 380 # 1.18.1
 ---
 
 Fail the player if they lose their Hit & Run. 

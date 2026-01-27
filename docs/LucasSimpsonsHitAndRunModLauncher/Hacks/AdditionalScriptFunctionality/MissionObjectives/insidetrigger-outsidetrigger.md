@@ -3,8 +3,9 @@ title: "insidetrigger / outsidetrigger"
 description: "These types of objectives require the player to be either inside or outside the specified triggers to pass the stage."
 authors: [ 2 ]
 initialVersion:
-	project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
-	projectBranchVersion_id: 379 # 1.18
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main Branch
+  projectBranchVersion_id: 379 # 1.18
 ---
 
 These types of objectives require the player to be either inside or outside the specified triggers to pass the stage.
