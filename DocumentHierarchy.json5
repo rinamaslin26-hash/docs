@@ -347,7 +347,7 @@
 											name: "Mission Conditions",
 											children:
 											[
-												"TheSimpsonsHitAndRun/Scripting/MissionObjectives/AllConditions.md",
+												"TheSimpsonsHitAndRun/Scripting/MissionConditions/AllConditions.md",
 												"TheSimpsonsHitAndRun/Scripting/MissionConditions/carryingspcollectible.md",
 												"TheSimpsonsHitAndRun/Scripting/MissionConditions/damage.md",
 												"TheSimpsonsHitAndRun/Scripting/MissionConditions/followdistance.md",
