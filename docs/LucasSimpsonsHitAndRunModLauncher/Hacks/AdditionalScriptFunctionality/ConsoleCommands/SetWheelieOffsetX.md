@@ -8,6 +8,9 @@ This command sets the X offset of the vehicle's center of mass when performing a
 
 In order to perform a wheelie, the vehicle must be stopped or nearly stopped.
 
+# Scope
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/CarCon.md }}
+
 # Syntax
 {{ tabs }}
 {{ tab MFK }}

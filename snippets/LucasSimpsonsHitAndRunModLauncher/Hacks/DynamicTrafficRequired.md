@@ -1,0 +1,1 @@
+This requires the `DynamicTraffic` feature of the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomTrafficSupport.md]] hack to be enabled as well as actually defining multiple traffic groups to have any noticeable effect.

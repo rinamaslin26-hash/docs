@@ -1,0 +1,1 @@
+Updated to default the second argument to [[/LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageCharacterModel.md]] to default the player's current animation set instead of requiring the argument.

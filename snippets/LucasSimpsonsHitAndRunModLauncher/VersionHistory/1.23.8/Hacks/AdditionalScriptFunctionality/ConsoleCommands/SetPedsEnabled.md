@@ -1,0 +1,3 @@
+Fixed a bug where calling [[/LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetPedsEnabled.md]] alongside [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/StreetRacePropsLoad.md]] would cause pedestrians to become disabled after the mission ends until another mission puts it back.
+
+

@@ -501,6 +501,7 @@
 					name: "Lucas' Simpsons Hit & Run Mod Launcher",
 					children:
 					[
+						"LucasSimpsonsHitAndRunModLauncher/Intro.md",
 						"LucasSimpsonsHitAndRunModLauncher/Settings.md",
 						"LucasSimpsonsHitAndRunModLauncher/DonutTeamAccountIntegration.md",
 						"LucasSimpsonsHitAndRunModLauncher/LanguageLocalisation.md",
@@ -520,6 +521,149 @@
 											name: "Additional Script Functionality",
 											children:
 											[
+												{
+													type: "Group",
+													name: "Console Commands",
+													children:
+													[
+														{
+															type: "Group",
+															name: "CON Commands",
+															children:
+															[
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetWheelieOffsetX.md",
+															],
+														},
+														{
+															type: "Group",
+															name: "MFK Commands",
+															children:
+															[
+																{
+																	type: "Group",
+																	name: "Level Initialisation",
+																	children:
+																	[
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddParkedCar.md",
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCarChangeHitAndRunChange.md",
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetHitAndRunDecayHitAndRun.md",
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetHitAndRunDecayInterior.md",
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetHitAndRunFine.md",
+																	],
+																},
+																{
+																	type: "Group",
+																	name: "Mission Initialisation",
+																	children:
+																	[
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetHUDMapDrawable.md",
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetParkedCarsEnabled.md",
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetPedsEnabled.md",
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/UseTrafficGroup.md",
+																		{
+																			type: "Group",
+																			name: "Stages",
+																			children:
+																			[
+																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/DisableTrigger.md",
+																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCollectibleSoundEffect.md",
+																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageAllowMissionCancel.md",
+																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageCharacterModel.md",
+																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStagePayout.md",
+																				{
+																					type: "Group",
+																					name: "Checkpoints",
+																					children:
+																					[
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/CHECKPOINT_HERE.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/IfCurrentCheckpoint.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCheckpointDynaLoadData.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCheckpointPedGroup.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCheckpointResetPlayerInCar.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCheckpointResetPlayerOutCar.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCheckpointTrafficGroup.md",
+																					],
+																				},
+																				{
+																					type: "Group",
+																					name: "Hit & Runs",
+																					children:
+																					[
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/ResetStageHitAndRun.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetNoHitAndRunMusicForStage.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageCarChangeHitAndRunChange.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageHitAndRun.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageHitAndRunDecay.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageHitAndRunDecayHitAndRun.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageHitAndRunDecayInterior.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageHitAndRunFine.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageNumChaseCars.md",
+																					],
+																				},
+																				{
+																					type: "Group",
+																					name: "Stage Vehicles",
+																					children:
+																					[
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddStageVehicleCharacter.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/RemoveStageVehicleCharacter.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/ResetStageVehicleAbductable.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageVehicleAbductable.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageVehicleAllowSeatSlide.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageVehicleCharacterAnimation.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageVehicleCharacterJumpOut.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageVehicleCharacterScale.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageVehicleCharacterVisible.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageVehicleNoDestroyedJumpOut.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageVehicleReset.md",
+																					],
+																				},
+																				{
+																					type: "Group",
+																					name: "Objectives",
+																					children:
+																					[
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddObjTargetModel.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetDurationTime.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjCameraName_SetObjMulticontName.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjCanSkip.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjDecay.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjExplosion.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjMessageIndex.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjNoLetterbox.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjSound.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjSpeedKMH.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjThreshold.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjTotal.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjTrigger.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjUseCameraPosition.md",
+																					],
+																				},
+																				{
+																					type: "Group",
+																					name: "Conditions",
+																					children:
+																					[
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddCondTargetModel.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondDecay.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondDelay.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondDisplay.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondMessageIndex.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondSound.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondSpeedRangeKMH.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondThreshold.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondTotal.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondTrigger.md",
+																					],
+																				},
+																			],
+																		},
+																	],
+																},
+															],
+														},
+													],
+												},
 												{
 													type: "Group",
 													name: "Mission Objectives",

@@ -1,0 +1,1 @@
+Fixed an issue where calling [[/LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageCharacterModel.md]] in a stage that also calls [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/RESET_TO_HERE.md]] that is preceded by another stage that calls this command (with the same model and animation set) didn't work.

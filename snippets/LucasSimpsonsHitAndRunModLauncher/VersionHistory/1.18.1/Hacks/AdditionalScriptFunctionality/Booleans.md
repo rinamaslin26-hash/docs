@@ -1,0 +1,1 @@
+Made ASF commands that take a boolean as an argument accept `true` or `false` as well as 0 or 1 instead of accepting any integer and treating it as true if it's not 0.
