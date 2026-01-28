@@ -240,6 +240,7 @@
 	"lucasmodlauncher/hacks/asf/objectives/jump": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/jump",
 	"lucasmodlauncher/hacks/asf/objectives/reachspeed": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/reachspeed",
 	"lucasmodlauncher/hacks/asf/objectives/spring": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/spring",
+	"lucasmodlauncher/hacks/asf/modified-commands": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AllCommands",
 	"lucasmodlauncher/hacks/custom-license-screen-time": "LucasSimpsonsHitAndRunModLauncher/Hacks/CustomLicenseScreenTime",
 	"lucasmodlauncher/hacks/no-audio": "LucasSimpsonsHitAndRunModLauncher/Hacks/NoAudio",
 	"lucasmodlauncher/hacks/no-automatic-saved-game-load": "LucasSimpsonsHitAndRunModLauncher/Hacks/NoAutomaticSavedGameLoad",
