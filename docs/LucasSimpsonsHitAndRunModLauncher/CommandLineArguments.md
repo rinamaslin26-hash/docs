@@ -1756,7 +1756,7 @@ These command line arguments only take effect when the [[Hacks/XInput.md]] hack 
 ## -ignorepacketnumber
 **Added in Version 1.23.**
 
-Makes the hack ignore whether or not the [State packet number](https://docs.microsoft.com/en-au/windows/desktop/api/xinput/ns-xinput-_xinput_state) changed.
+Makes the hack ignore whether or not the state packet number changed.
 
 ```text
 -ignorepacketnumber
