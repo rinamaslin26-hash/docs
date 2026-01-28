@@ -502,6 +502,7 @@
 					children:
 					[
 						"LucasSimpsonsHitAndRunModLauncher/Intro.md",
+						"LucasSimpsonsHitAndRunModLauncher/SetupGuide.md",
 						"LucasSimpsonsHitAndRunModLauncher/Settings.md",
 						"LucasSimpsonsHitAndRunModLauncher/DonutTeamAccountIntegration.md",
 						"LucasSimpsonsHitAndRunModLauncher/LanguageLocalisation.md",
