@@ -7,7 +7,7 @@ authors: [ 2 ]
 This page lists all versions of [Project:6] that have been released.
 
 # Release Builds
-This is a list of every version of the Mod Launcher that has been released on the Donut Team website since the initial release in late 2013.
+These are all standard release builds of the Mod Launcher that has been released since the initial release in late 2013.
 
 | Version | Release Date       | Download and Changelog     | Trailer                                                |
 |---------|--------------------|----------------------------|--------------------------------------------------------|

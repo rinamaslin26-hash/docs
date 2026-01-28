@@ -48,4 +48,4 @@ To learn how to install mods, see [[Mods/InstallingMods.md]].
 To get started learning how to create your own mods, see [[Mods/CreatingMods.md]].
 
 # Version History
-For the version history of the Mod Launcher, see the **Downloads** tab on Mod Bakery: [Project:6]
+See [[VersionHistory.md]].
