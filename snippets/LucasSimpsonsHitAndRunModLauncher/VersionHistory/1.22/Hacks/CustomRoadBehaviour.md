@@ -1,0 +1,1 @@
+Added support for a `Number` attribute on `<Level>` elements.

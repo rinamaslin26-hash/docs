@@ -1,0 +1,1 @@
+Fixed a bug where parked car models didn't seem to get added if `AllocatedCars` was set to anything other than 5.

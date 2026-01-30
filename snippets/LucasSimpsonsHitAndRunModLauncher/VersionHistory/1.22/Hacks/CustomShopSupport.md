@@ -1,0 +1,1 @@
+Added support for a `SkinShop` element in this hack's configuration file that works similarly to the existing `PhoneBooth` element.

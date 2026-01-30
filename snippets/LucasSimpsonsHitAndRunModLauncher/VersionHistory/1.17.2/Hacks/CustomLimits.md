@@ -1,0 +1,1 @@
+Added support the `[Billboards]` section that can define a `QuadGroupLimit` and a `QuadLimit`.

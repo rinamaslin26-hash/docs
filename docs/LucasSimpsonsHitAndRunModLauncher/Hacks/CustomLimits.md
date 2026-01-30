@@ -1,9 +1,14 @@
 ---
-title: Custom Limits
+title: "Custom Limits"
 description: "This allows mods to customise various limits in the game to suit their needs."
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 367 # 1.14
 ---
 
-**This hack must be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
 
 This allows mods to customise various limits in the game to suit their needs.
 
@@ -251,49 +256,35 @@ PathLimit=125
 {{ endtabs }}
 
 # Version History
-## 1.26
-{{ snippet lucasmodlauncher/versions/1.26/hack_custom-limits }}
+## Version 1.26
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.26/Hacks/CustomLimits.md }}
 
-## 1.25
-{{ snippet lucasmodlauncher/versions/1.25/hack_custom-limits }}
+## Version 1.25
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.25/Hacks/CustomLimits.md }}
 
-## 1.24
-{{ snippet lucasmodlauncher/versions/1.24/hack_custom-limits }}
+## Version 1.24
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.24/Hacks/CustomLimits.md }}
 
-## 1.23.10
-{{ snippet lucasmodlauncher/versions/1.23.10/hack_custom-limits }}
+## Version 1.23.10
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.10/Hacks/CustomLimits.md }}
 
-## 1.23.4
-Added a `[Scripting]` section with a new `ArgumentLengthLimit` limit.
+## Version 1.23.4
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.4/Hacks/CustomLimits.md }}
 
-## 1.22
+## Version 1.22
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22/Hacks/CustomLimits.md }}
 
-* Added `CarLimit` and `ActionButtonLimit` to the `[Miscellaneous]` section.
-* Added a `[CollisionIndices]` section that lets you increase the limit on various types of collision indices.
-    * No longer will Lucas sing about there not being [enough collision indices](https://youtu.be/iiIkcr83J9I?t=133).
-* Added a `[Sound]` section that lets you increase `PlayingClipPlayerLimit` and `PlayingStreamPlayerLimit`.
-* Made this hack assert if the `Limit` in the `[Regions]` section was set to more than 127.
+## Version 1.17.2
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.17.2/Hacks/CustomLimits.md }}
 
-## 1.17.2
-Added support the `[Billboards]` section that can define a `QuadGroupLimit` and a `QuadLimit`.
+## Version 1.16.1
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.16.1/Hacks/CustomLimits.md }}
 
-## 1.16.1
+## Version 1.16
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.16/Hacks/CustomLimits.md }}
 
-* Added the `DeletedEntityLimit` property to the `[Miscellaneous]` section.
-* Added the `PathLimit` property to the `[Miscellaneous]` section.
-* Fixed an issue where changing the `Intersection` limit to higher than normal did not change the amount of animated arrows that got created.
-    * This caused crashes since there's supposed to be an instance of the arrows created for every intersection.
+## Version 1.15.3
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.15.3/Hacks/CustomLimits.md }}
 
-## 1.16
-Fixed a bug where `CustomLimits.ini` was not included when compiling mods.
-
-## 1.15.3
-Added the `[TreeNodes]` section that can define a `DrawDistance`, `BoundsMinimumY` and `BoundsMaximumY`.
-
-## 1.15
-Added the `[Regions]` section that can define a `Limit`, `EntityLimit` and `RoadSegmentLimit`.
-
-Added support for changing region related limits with the new `[Regions]` section.
-
-## 1.14
-Added this hack.
+## Version 1.15
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.15/Hacks/CustomLimits.md }}

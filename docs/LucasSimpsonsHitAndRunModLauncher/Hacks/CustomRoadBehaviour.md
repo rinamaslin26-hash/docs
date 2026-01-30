@@ -1,9 +1,14 @@
 ---
-title: Custom Road Behaviour
+title: "Custom Road Behaviour"
 description: "This hack allows mods to define custom behaviour for specific roads."
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 372 # 1.16
 ---
 
-**This hack must be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
 
 This hack allows mods to define custom behaviour for specific roads.
 
@@ -55,8 +60,5 @@ To configure this hack, create a file named `CustomRoadBehaviour.xml` and add th
 ```
 
 # Version History
-## 1.22
-Added support for a `Number` attribute on `<Level>` elements.
-
-## 1.16
-Added this hack.
+## Version 1.22
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22/Hacks/CustomRoadBehaviour.md }}

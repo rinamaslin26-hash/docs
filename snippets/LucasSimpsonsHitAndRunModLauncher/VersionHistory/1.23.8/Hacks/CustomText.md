@@ -1,0 +1,1 @@
+Added support for defining variables and using them in text strings.

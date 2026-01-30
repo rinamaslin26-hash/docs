@@ -1,9 +1,14 @@
 ---
-title: Custom Mission Skip Fail Counts
+title: "Custom Mission Skip Fail Counts"
 description: "This hack allows mods to customise the amount of failures required for the Skip option to display on the mission failed screen."
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 347 # 1.5
 ---
 
-**This hack must be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
 
 This hack allows mods to customise the amount of failures required for the Skip option to display on the mission failed screen.
 
@@ -36,7 +41,3 @@ To configure this hack, create a file named `CustomMissionSkipFailCounts.ini` an
 FailCountL1=4
 FailCountL1M5=1
 ```
-
-# Version History
-## 1.5
-Added this version.

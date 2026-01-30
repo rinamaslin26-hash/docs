@@ -1,0 +1,1 @@
+Fixed a crash that sometimes occurred while automatically loading the most recent saved game.

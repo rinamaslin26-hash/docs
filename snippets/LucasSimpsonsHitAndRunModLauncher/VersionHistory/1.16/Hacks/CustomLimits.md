@@ -1,0 +1,1 @@
+Fixed a bug where `CustomLimits.ini` was not included when compiling mods.

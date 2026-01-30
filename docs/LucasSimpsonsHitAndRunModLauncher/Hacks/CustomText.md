@@ -1,9 +1,14 @@
 ---
-title: Custom Text
+title: "Custom Text"
 description: "This hack allows mods to specify custom text strings globally as well as on a per level and per mission basis."
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 341 # 1.2
 ---
 
-**This hack must be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
 
 This hack allows mods to specify custom text strings globally as well as on a per level and per mission basis.
 
@@ -76,7 +81,7 @@ BART_V=$(ModName)
 LISA_V=Malibooooo Kar
 
 [CustomTextL1]
-MISSION_FAILED=DO'H!
+MISSION_FAILED="DO'H!"
 
 [CustomTextL1M3]
 MISSION_OBJECTIVE_01=AVOID BARNEY.
@@ -87,17 +92,14 @@ MISSION_OBJECTIVE_01=FINISH THE RACE IN FIRST, OR ELSE!
 ```
 
 # Version History
-## 1.26
-{{ snippet lucasmodlauncher/versions/1.26/hack_custom-text }}
+## Version 1.26
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.26/Hacks/CustomText.md }}
 
-## 1.23.8
-Added support for defining variables and using them in text strings.
+## Version 1.23.8
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.8/Hacks/CustomText.md }}
 
-## 1.22.1
-Removed this hack's length limit on strings, instead using the general limit (now 32767).
+## Version 1.22.1
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22.1/Hacks/CustomText.md }}
 
-## 1.15.2
-Fixed a crash that sometimes occurred while automatically loading the most recent saved game.
-
-## 1.2 or earlier
-Added this hack.
+## Version 1.15.2
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.15.2/Hacks/CustomText.md }}

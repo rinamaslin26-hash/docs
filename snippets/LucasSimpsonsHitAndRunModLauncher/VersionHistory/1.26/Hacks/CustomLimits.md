@@ -1,0 +1,2 @@
+* Added a new `SkidMarkLimit` property to the `Cars` section to customise the maximum number of skid marks that can exist at once.
+* Added a new `[Triggers]` section with a `VolumeLimit` property to customise the maximum number of trigger volumes that can be loaded at once.

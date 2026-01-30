@@ -1,9 +1,14 @@
 ---
 title: Custom Animation Set Support
 description: "This hack adds support for custom animation sets for characters."
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 344 # 1.4
 ---
 
-**This hack must be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
 
 This hack adds support for custom animation sets for characters.
 
@@ -13,7 +18,3 @@ To require this hack, add this line to your mod's Meta.ini:
 ```ini
 RequiredHack=CustomAnimationSetSupport
 ```
-
-# Version History
-## 1.4
-Added this hack.

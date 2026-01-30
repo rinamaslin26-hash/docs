@@ -1,0 +1,1 @@
+Made it so text strings returned by this hack always reserve at least 256 characters safe for Radical to mess with since they do that in some cases.

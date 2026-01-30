@@ -1,9 +1,14 @@
 ---
-title: Custom Skin Preview Animations
+title: "Custom Skin Preview Animations"
 description: "This hack allows mods to control what animation plays when viewing skins in a skin shop."
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 341 # 1.2
 ---
 
-**This hack must be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
 
 This hack allows mods to control what animation plays when viewing skins in a skin shop.
 
@@ -40,7 +45,3 @@ To configure this hack, create a file named `CustomSkinPreviewAnimations.ini` an
 5=brt_loco_idle_rest
 6=hom_loco_idle_rest
 ```
-
-# Version History
-## 1.2
-Added this hack.

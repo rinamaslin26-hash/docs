@@ -1,11 +1,14 @@
 ---
-title: Custom Traffic Support
+title: "Custom Traffic Support"
 description: "This hack that allows you to have dynamic traffic groups, more than 5 traffic cars, custom traffic colors and more."
-status:
-    class: "wip"
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 388 # 1.22
 ---
 
-**This hack must be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
 
 This hack that allows you to have dynamic traffic groups, more than 5 traffic cars, custom traffic colors and more.
 
@@ -206,8 +209,5 @@ To configure this hack, create a file named `CustomTrafficSupport.xml` and add t
 ```
 
 # Version History
-## 1.23.5
-Fixed a bug where parked car models didn't seem to get added if `AllocatedCars` was set to anything other than 5.
-
-## 1.22
-Added this hack.
+## Version 1.23.5
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.5/Hacks/CustomTrafficSupport.md }}

@@ -1,0 +1,1 @@
+Added a `[Scripting]` section with a new `ArgumentLengthLimit` limit.

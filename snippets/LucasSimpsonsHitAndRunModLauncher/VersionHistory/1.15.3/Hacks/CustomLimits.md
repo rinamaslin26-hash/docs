@@ -1,0 +1,1 @@
+Added the `[TreeNodes]` section that can define a `DrawDistance`, `BoundsMinimumY` and `BoundsMaximumY`.

@@ -1,9 +1,14 @@
 ---
-title: Custom Stats Totals
+title: "Custom Stats Totals"
 description: "This hack adjusts car and skin reward totals for each level based on the amount defined in the rewards file."
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 350 # 1.6
 ---
 
-**This hack must be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
 
 This hack adjusts car and skin reward totals for each level based on the amount defined in the rewards file. It also automatically disables scrap book menus for specific levels if there's too many cars or skins to avoid crashing the game.
 
@@ -31,11 +36,8 @@ Levels=7
 ```
 
 # Version History
-## 1.24
-{{ snippet lucasmodlauncher/versions/1.24/hack_custom-stats-totals }}
+## Version 1.24
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.24/Hacks/CustomStatsTotals.md }}
 
-## 1.16
-Made the "Clothes" and "Vehicles" menus get disabled in the scrapbook if there aren't any clothes or vehicles registered respectively.
-
-## 1.6
-Added this hack.
+## Version 1.16
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.16/Hacks/CustomStatsTotals.md }}

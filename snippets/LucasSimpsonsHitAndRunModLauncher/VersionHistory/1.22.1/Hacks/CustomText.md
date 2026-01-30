@@ -1,0 +1,1 @@
+Removed this hack's length limit on strings, instead using the general limit (now 32767).

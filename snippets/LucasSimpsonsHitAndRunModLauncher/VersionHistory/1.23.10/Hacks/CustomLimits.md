@@ -1,0 +1,1 @@
+Added an `[AnimEntities]` section that lets you increase the limit on various types of animated entities.

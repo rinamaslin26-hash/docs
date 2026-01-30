@@ -1,17 +1,20 @@
 ---
-title: Custom Video Resolution Support
+title: "Custom Video Resolution Support"
 description: "This hack increases the video segment size from 256x256 to a configurable amount."
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 379 # 1.18
 ---
 
-**This hack can be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
-
-**This hack is pseudo hack provided by [Increased Video Resolution Support](increased-video-resolution-support.md).**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
 
 This hack increases the video segment size from 256x256 to a configurable amount.
 
 This allows mods to increase the maximum video resolution from about 768x768.
    
-These limits do not apply to videos used as textures with [Video Texture Support](video-texture-support.md) as those are instead subject to texture-related limitations.
+These limits do not apply to videos used as textures with [[VideoTextureSupport.md]] as those are instead subject to texture-related limitations.
 
 # Requiring This Hack
 To require this hack, add this line to your mod's Meta.ini:
@@ -31,6 +34,5 @@ SegmentWidth=2018
 SegmentHeight=1024
 ```
 
-# History
-## 1.18
-Added this pseudo hack. Don't poke at it.
+# Notes
+This is the same hack internally as [[IncreasedVideoResolutionSupport.md]].

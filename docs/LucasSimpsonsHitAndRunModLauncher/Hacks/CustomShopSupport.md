@@ -1,9 +1,14 @@
 ---
-title: Custom Shop Support
+title: "Custom Shop Support"
 description: "This hack allows mods to specify custom NPCs for car shops."
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 379 # 1.18
 ---
 
-**This hack must be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
 
 This hack allows mods to specify custom NPCs for car shops.
    
@@ -132,12 +137,12 @@ These properties have been superseded by new properties in other sections. They 
 	<!--
 	
 	<PhoneBooth>
-		<Blacklist> (Use ExcludedItems instead)
-		<Whitelist> (Use IncludedItems instead)
+		<Blacklist> (Use <ExcludedItems> instead)
+		<Whitelist> (Use <IncludedItems> instead)
 		
 	<SkinShop>
-		<Blacklist> (Use ExcludedItems instead)
-		<Whitelist> (Use IncludedItems instead)
+		<Blacklist> (Use <ExcludedItems> instead)
+		<Whitelist> (Use <IncludedItems> instead)
 		
 	-->
 </CustomShopSupport>
@@ -146,17 +151,11 @@ These properties have been superseded by new properties in other sections. They 
 {{ endtabs }}
 
 # Version History
-## 1.25
-{{ snippet lucasmodlauncher/versions/1.25/hack_custom-shop-support }}
+## Version 1.25
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.25/Hacks/CustomShopSupport.md }}
 
-## 1.22
-Added support for a `SkinShop` element in this hack's configuration file that works similarly to the existing `PhoneBooth` element.
+## Version 1.22
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22/Hacks/CustomShopSupport.md }}
 
-## 1.18.2
-Fixed a crash on startup that occurred with certain game executables in certain circumstances:
-
-* If the mod used the `Locator` attribute on a `Selector` element inside a `PhoneBooth` element.
-* If the mod used a `Car` element inside a `FreeItems` element inside a `PhoneBooth` element.
-
-## 1.18
-Added this hack.
+## Version 1.18.2
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18.2/Hacks/CustomShopSupport.md }}

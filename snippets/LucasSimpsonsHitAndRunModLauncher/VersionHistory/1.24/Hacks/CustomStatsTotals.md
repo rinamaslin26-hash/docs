@@ -1,0 +1,1 @@
+Added support for wasp, gag, car and skin totals being 0. These totals are now excluded from the overall percentage when they're 0 rather than causing the game to divide by 0.

@@ -1,9 +1,14 @@
 ---
 title: Custom Trigger Actions
 description: "This hack allows you to bind custom actions to the triggers of specific locators or events."
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 384 # 1.20
 ---
 
-**This hack must be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
 
 This hack allows you to bind custom actions to the triggers of specific locators or events.
 
@@ -173,33 +178,17 @@ Condition=IsL1M2Unlocked
 ```
 
 # Debug Text Mode
-This hack registers a [debug mode](debug-text.md#registered-by-custom-trigger-actions) when used alongside [Debug Text](debug-text.md).
+This hack registers a debug mode for the [[DebugText.md]] hack when used alongside it.
 
 # Version History
-## 1.23.6
+## Version 1.23.6
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/1.23.6/Hacks/CustomTriggerActions.ini }}
 
-* Added a `CompletedMission` type for `[Condition]` sections.
-    * This allows you to check whether or not a particular story mission, street race or bonus mission has been completed.
-* Added a debug text mode that shows all registered conditions and whether or not they're currently met.
+## Version 1.22.2
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/1.22.2/Hacks/CustomTriggerActions.ini }}
 
-## 1.22.2
+## Version 1.22
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/1.22/Hacks/CustomTriggerActions.ini }}
 
-* Added a `Not` property on conditions that makes them return true when they are not met.
-* Made the `BonusMission` property on `Mission` type `[Condition]` sections work as originally documented.
-    * This value was documented as being a number from 1 to 5.
-    * All previous versions were checking for 21 to 25 instead of 1 to 5.
-    * For backwards compatibility reasons, it now checks for either set of numbers.
-
-## 1.22
-
-* Added a `ChangeTrafficGroup` action. This allows you to set the current traffic group with any trigger. This does effectively nothing unless DynamicTraffic is enabled in CustomTrafficSupport.
-* Added a `TriggerMusicEvent` action. This allows you to trigger any music event in the current music RMS file with any trigger.
-    * Due to various ways the game handles music, this might not be very practical but it's there!
-
-## 1.21
-
-* Fixed an oversight where this hack was marked as Advanced.
-* Fixed an oversight where this hack was still marked as Unreleased.
-
-## 1.20
-Added this hack.
+## Version 1.21
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/1.21/Hacks/CustomTriggerActions.ini }}
