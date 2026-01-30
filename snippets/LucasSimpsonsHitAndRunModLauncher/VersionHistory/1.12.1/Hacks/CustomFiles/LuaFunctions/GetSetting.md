@@ -1,0 +1,1 @@
+Fixed a bug where using the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetSetting.md]] function on an `Integer` type `Number` setting would return a number.

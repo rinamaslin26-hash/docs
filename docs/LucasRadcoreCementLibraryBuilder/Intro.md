@@ -5,7 +5,7 @@ description: "Lucas' Radcore Cement Library Builder or Lucas' RCF Builder for sh
 
 Lucas' Radcore Cement Library Builder or Lucas' RCF Builder for short is a command line tool that allows you to build custom RCF files.
 
-While not practical for modding the PC version of The Simpsons: Hit & Run, thanks to the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles.md]] hack, it has uses when modding the console versions of that game as well as The Simpsons: Road Rage.
+While not practical for modding the PC version of The Simpsons: Hit & Run, thanks to the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/Intro.md|Custom Files]] hack, it has uses when modding the console versions of that game as well as The Simpsons: Road Rage.
 
 This tool currently only supports version 1.2 of the RCF format, the version used by The Simpsons: Road Rage and The Simpsons: Hit & Run.
 

@@ -31,4 +31,4 @@ RequiredHack=CustomFiles
 
 For more detailed information about configuring the mod itself and the structure of a mod folder, see [[ConfiguringMods.md]].
 
-For more detailed information about which hacks are requirable and which ones are also configurable, see the [[../Hacks/Intro.md]] and the individual pages for each hack.
+For more detailed information about which hacks are requirable and which ones are also configurable, see the [[../Hacks/AllHacks.md]] and the individual pages for each hack.

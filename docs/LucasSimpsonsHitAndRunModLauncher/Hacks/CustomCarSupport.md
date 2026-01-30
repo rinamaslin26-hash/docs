@@ -215,16 +215,16 @@ This hack is affected by certain [[../CommandLineArguments.md]] for the Mod Laun
 
 # Version History
 ## Version 1.26
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.26/Hacks/CustomTrafficSupport.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.26/Hacks/CustomCarSupport.md }}
 
 ## Version 1.24
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.24/Hacks/CustomTrafficSupport.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.24/Hacks/CustomCarSupport.md }}
 
 ## Version 1.22
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22/Hacks/CustomTrafficSupport.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22/Hacks/CustomCarSupport.md }}
 
 ## Version 1.18
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/CustomTrafficSupport.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/CustomCarSupport.md }}
 
 ## Version 1.17
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.17/Hacks/CustomTrafficSupport.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.17/Hacks/CustomCarSupport.md }}

@@ -1,0 +1,1 @@
+Fixed a buffer overflow when reading the header of some Bink files when playing them that could cause memory corruption and lead to a crash.

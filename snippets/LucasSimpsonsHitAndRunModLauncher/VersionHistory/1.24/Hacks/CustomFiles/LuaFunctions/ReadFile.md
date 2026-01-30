@@ -1,0 +1,1 @@
+Fixed a memory leak when Lua failed to allocate memory to return the result of a call to the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/ReadFile.md]] function.

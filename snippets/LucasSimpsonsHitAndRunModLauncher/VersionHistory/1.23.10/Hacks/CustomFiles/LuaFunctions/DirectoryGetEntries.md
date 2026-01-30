@@ -1,0 +1,1 @@
+Fixed a bug where calling the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/DirectoryGetEntries.md]] function on `/` yielded no results when not using the `-legacyfilesystem` command line argument.

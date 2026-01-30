@@ -1079,7 +1079,7 @@ As of Version 1.23.2, using this alongside `-suspend` will cause the message sho
 
 Makes it so this hack will print information about when keybinds are pressed, released and ignored to the console.
 
-This bypasses the "Include > Hacks" setting of the [[Hacks/ConsoleAndLogging.md]] hack.
+This bypasses the "Include > Hacks" setting of the [[Hacks/Console.md]] hack.
 
 ```text
 -debugkeybinds

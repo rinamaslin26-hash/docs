@@ -1,0 +1,1 @@
+Fixed a bug where the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsModEnabled.md]] function returned false for mod hacks.

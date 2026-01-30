@@ -1,0 +1,1 @@
+Fixed an issue where the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/ComparePaths.md]] function was always case sensitive and always slash sensitive.

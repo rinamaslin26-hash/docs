@@ -1,0 +1,1 @@
+Improved efficency of the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/Output.md]] Lua function for path handlers, particularly when calling it multiple times.

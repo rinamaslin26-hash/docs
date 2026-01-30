@@ -1,0 +1,41 @@
+---
+title: "DirectoryGetEntries"
+description: "Calls a callback function for every file and sub-directory in the given path."
+authors: [ 2 ]
+# TODO: initialVersion
+---
+
+Calls a callback function for every file and sub-directory in the given path.
+
+The order of these files is not predictable and should not be relied upon.
+
+# Syntax
+```lua
+DirectoryGetEntries( <path>, <callback>, [<end_to_start>] )
+```
+
+* **path**: The directory to iterate.
+* **callback**: The callback that will be called for each item in the directory. 
+    * This callback is given the two arguments:
+        * **FileOrDirectory**: The file or directory name.
+        * **IsDirectory**: Whether or not the entry is a directory.
+    * This callback must return true for the loop to continue.
+* **end_to_start**: Makes the function iterate the directory in reverse order. 
+    * Optional, defaults to false.
+
+# Examples
+```lua
+-- Print each file and whether or not it's a directory.
+DirectoryGetEntries(Path, function(FileOrDirectory, IsDirectory)
+    print(FileOrDirectory, IsDirectory)
+
+    return true
+end)
+```
+
+# Version History
+## Version 1.23.10
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.10/Hacks/CustomFiles/LuaFunctions/DirectoryGetEntries.md }}
+
+## Version 1.18
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/CustomFiles/LuaFunctions/DirectoryGetEntries.md }}

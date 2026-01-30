@@ -112,7 +112,7 @@ They can be enabled by the user on the "Settings" page of the Mods List.
 | [[NoCursorUntilMouseMove.md]]            | 1.18             |
 | [[NoFastCarReset.md]]                    | 1.4              |
 | [[NoGoToObjectiveCameraFocus.md]]        | 1.20             |
-| [[NoHit&RunMusic.md]]                    | 1.23.6           |
+| [[NoHitAndRunMusic.md]]                  | 1.23.6           |
 | [[NoInactiveDynamicObjectCollisions.md]] | 1.16             |
 | [[NoIntroductionMovies.md]]              | 1.15             |
 | [[NoJumpLimit.md]]                       | 1.4              |
@@ -127,7 +127,7 @@ They can be enabled by the user on the "Settings" page of the Mods List.
 | [[NoTimeLimits.md]]                      | 1.12             |
 | [[NoWrenches.md]]                        | 1.20             |
 | [[NVIDIAHighlights.md]]                  | 1.18             |
-| [[OnFootOrbitCamera.md]]                 | 1.26             |
+| [[OrbitCamera.md]]                       | 1.26             |
 | [[OneTapPlayerCarDeath.md]]              | 1.20             |
 | [[RebindableMenuGamepadInputs.md]]       | 1.23.9           |
 | [[ReplayableBonusMissions.md]]           | 1.12             |

@@ -1,0 +1,1 @@
+Made the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetSetting.md]] function return nil instead of throwing an error if a setting doesn't exist. Mod creators should do checks for nil on UncompiledOnly settings.

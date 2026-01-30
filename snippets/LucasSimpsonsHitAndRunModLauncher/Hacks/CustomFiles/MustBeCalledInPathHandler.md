@@ -1,0 +1,1 @@
+**This function should only be called in a [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/PathHandlerScripts.md|Path Handler]] script.**

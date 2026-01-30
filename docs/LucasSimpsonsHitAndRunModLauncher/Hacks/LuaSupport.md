@@ -10,7 +10,7 @@ initialVersion:
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/Advanced.md }}
 
-This hack provides [Lua 5.3.3](https://www.lua.org/home.html) to other hacks that want to utilise the scripting language such as [[CustomFiles.md]].
+This hack provides [Lua 5.3.3](https://www.lua.org/home.html) to other hacks that want to utilise the scripting language such as [[CustomFiles/Intro.md|Custom Files]].
 
 # Version History
 ## Version 1.23
