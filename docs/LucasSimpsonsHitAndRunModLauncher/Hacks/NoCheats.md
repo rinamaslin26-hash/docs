@@ -2,6 +2,10 @@
 title: "No Cheats"
 description: "This hack prevents the user from entering the game's cheat codes."
 authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 347 # 1.5
 ---
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeEnabledOnSettingsPage.md }}
@@ -26,6 +30,3 @@ RequiredHack=NoCheats
 
 ## Version 1.16
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.16/Hacks/NoCheats.md }}
-
-## Version 1.5
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.5/Hacks/NoCheats.md }}Hacks/

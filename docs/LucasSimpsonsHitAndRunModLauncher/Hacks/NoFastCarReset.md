@@ -2,6 +2,10 @@
 title: "No Fast Car Reset"
 description: "This hack prevents the game from resetting cars that are moving faster than 720 km/h."
 authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 344 # 1.4
 ---
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeEnabledOnSettingsPage.md }}
@@ -29,6 +33,3 @@ RequiredHack=NoFastCarReset
 
 ## Version 1.12
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.12/Hacks/NoFastCarReset.md }}
-
-## Version 1.4
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.4/Hacks/NoFastCarReset.md }}

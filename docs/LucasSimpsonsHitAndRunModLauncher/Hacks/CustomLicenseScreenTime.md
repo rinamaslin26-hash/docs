@@ -2,6 +2,10 @@
 title: "Custom License Screen Time"
 description: "This hack allows mods to adjust the amount of time spent on the license screen and whether or not the user is able to prematurely skip it."
 authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 347 # 1.5
 ---
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
@@ -35,7 +39,3 @@ Skippable=0
 
 # Notes
 Setting `Time` to `-1` and `Skippable` to 0 makes it impossible to bypass the license screen.
-
-# Version History
-## Version 1.5
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.5/Hacks/CustomLicenseScreenTime.md }}
