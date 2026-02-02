@@ -22,4 +22,4 @@ RequiredHack=NoTraffic
 ```
 
 # Notes
-This was previously part of the [[Traffic.md]] hack, but is now a standalone hack it requires.
+This was previously part of the [[Multiplayer.md]] hack, but is now a standalone hack it requires.
