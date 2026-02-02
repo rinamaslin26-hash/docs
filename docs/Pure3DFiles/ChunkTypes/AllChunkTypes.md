@@ -7,8 +7,7 @@ authors: [ 2 ]
 This page lists all chunk types that we have some amount of documentation for.
 
 # General
-These chunks are found in more than one game.
-
+These chunks are found in more than one game:
 * [[Animation.md]]
 * [[BoundingBox.md]]
 * [[BoundingSphere.md]]
@@ -64,5 +63,6 @@ These chunks are found exclusively in The Simpsons: Hit & Run.
 * [[Tree.md]]
 * [[TreeNode.md]]
 * [[TriggerVolume.md]]
+* [[WalkerCameraData.md]]
 * [[Wall.md]]
 * [[WorldSphere.md]]
