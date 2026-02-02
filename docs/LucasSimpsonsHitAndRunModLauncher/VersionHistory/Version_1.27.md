@@ -30,3 +30,9 @@ authors: [ 2 ]
 Added this new window that can be accessed from **Help** > **About...** on the main window's new tool strip.
 
 The **Licenses** tab, previously located on the Launcher Settings window, has also now been moved to this new window.
+
+## Mods List
+* Added the `-nodeltaupdatemodslist` command line argument to force the Mod Launcher to fully reload the mods list when clicking a reload button.
+* Added a new **Multiplayer** tab.
+	* This tab is intended to house the Multiplayer hack itself, as well as multiplayer focused mods.
+* Added a **Rebindable keys are available in "Mod Settings..."** message to the **About** tab that is shown when customisable keybinds are available for the currently selected mod.

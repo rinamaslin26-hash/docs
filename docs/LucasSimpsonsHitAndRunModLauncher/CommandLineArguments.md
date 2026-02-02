@@ -703,6 +703,15 @@ Makes the mods list have full row select. This causes various usability issues.
 -fullrowselect
 ```
 
+## -nodeltaupdatemodslist
+**Added in Version 1.27.**
+
+Forces the Mod Launcher to fully reload the mods list when clicking a reload button.
+
+```text
+-nodeltaupdatemodslist
+```
+
 ## -nonmodmods
 **Added in Version 1.18.**
 
