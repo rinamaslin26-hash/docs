@@ -50,3 +50,115 @@ This was previously part of the Multiplayer Resources framework.
 Added this new framework that provides resources for the new Multiplayer hack.
 
 This was previously distributed as part of separate "SHAR MP" builds of the Mod Launcher.
+
+# New Hacks
+## Additional Quest Reward Types
+Added this new hack that adds additional quest reward types.
+
+Currently, this hack only fixes the partially broken existing `cards` reward type so you can add a `car` reward for collecting all cards in a level that works properly.
+
+By default, there is no indicator you unlocked a reward but mods can use the Custom Text hack to tweak the text shown when collecting all cards to convey this.
+
+[[../Hacks/AdditionalQuestRewardTypes.md|Learn More]]
+
+## Ambient Car Support
+Added this new advanced hack that provides other hacks the ability to spawn arbitrary cars.
+
+This was previously distributed as part of separate "SHAR MP" builds of the Mod Launcher.
+
+[[../Hacks/AmbientCarSupport.md|Learn More]]
+
+## Analogue Speedometer
+Added this new setting hack that adds a fancy analogue speedometer you can toggle with a key.
+
+This is a standalone version of the "Analogue Speedometer" setting that was previously part of the Multiplayer hack.
+
+[[../Hacks/AnalogueSpeedometer.md|Learn More]]
+
+## Custom Collector Card Support
+Added this new hack that lets you customise character quote icons, the number of character quotes per card (up to 3), card drawables per card, and card collect drawables per card.
+
+[[../Hacks/CustomCollectorCardSupport.md|Learn More]]
+
+## DearImgui Support
+Added this new advanced hack that provides other hacks the ability to render stuff on top of the game using [DearImgui](https://github.com/ocornut/imgui).
+
+[[../Hacks/DearImgui.md|Learn More]]
+
+## Developer Keys
+Added this new hack that adds key binds that are useful for mod developers.
+
+This hack was originally called "Map Test Keys" but was renamed to "Developer Keys" per Lord Loren's demand.
+
+[[../Hacks/DeveloperKeys.md|Learn More]]
+
+## Frame Rate Counter
+Added this new hack that renders a frame rate counter on top of the game, with various options to configure it.
+
+This was previously distributed as a standalone test hack for previous versions of the Mod Launcher.
+
+[[../Hacks/FrameRateCounter.md|Learn More]]
+
+## Free Camera and No Clip
+Added this new hack that allows you to toggle a free camera or no clip mode to move around.
+
+Free Camera hides your character/car and gives you free control of the camera. Upon exiting this mode, you will be returned to where you were restoring what regions were loaded as well as the ped group and traffic group.
+
+No Clip moves your character/car around freely. Upon exiting this mode, they will be dropped wherever you had them.
+
+[[../Hacks/FreeCamera.md|Learn More]]
+
+## No Coins
+Added this new hack that disables all coins.
+
+This was previously part of the [[../Hacks/Multiplayer.md]] hack, but is now a standalone hack it requires.
+
+[[../Hacks/NoCoins.md|Learn More]]
+
+## No Explosion Exit Delay
+Added this new hack that removes the 3 second delay before your characters jumps out of a destroyed car.
+
+[[../Hacks/NoExplosionExitDelay.md|Learn More]]
+
+## No Gags
+Added this new hack that disables all gags.
+
+This was previously part of the [[../Hacks/Multiplayer.md]] hack, but is now a standalone hack it requires.
+
+[[../Hacks/NoGags.md|Learn More]]
+
+## No Hit & Runs
+Added this new hack that disables Hit & Runs.
+
+This was previously part of the [[../Hacks/Multiplayer.md]] hack, but is now a standalone hack it requires.
+
+[[../Hacks/NoHitAndRuns.md|Learn More]]
+
+## No Pedestrians
+Added this new hack that disables all pedestrians.
+
+This was previously part of the [[../Hacks/Multiplayer.md]] hack, but is now a standalone hack it requires.
+
+[[../Hacks/NoPedestrians.md|Learn More]]
+
+## No Traffic
+Added this new hack that disables all traffic.
+
+This was previously part of the [[../Hacks/Multiplayer.md]] hack, but is now a standalone hack it requires.
+
+[[../Hacks/NoTraffic.md|Learn More]]
+
+## Restore Wasp Destroy Dialog
+Added this new hack that restores dialog for destroying wasp cameras.
+
+[[../Hacks/RestoreWaspDestroyDialog.md|Learn More]]
+
+## Trainer
+Added this new hack that adds an ingame window for tweaking game parameters on the fly, teleporting around, and more!
+
+[[../Hacks/Trainer.md|Learn More]]
+
+## Walker Camera Data Support
+Added this new hack that restores support for the Walker Camera Data chunk in P3D files.
+
+[[../Hacks/WalkerCameraDataSupport.md|Learn More]]

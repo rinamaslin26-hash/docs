@@ -539,12 +539,14 @@
 							children:
 							[
 								"LucasSimpsonsHitAndRunModLauncher/Hacks/AllHacks.md",
+								"LucasSimpsonsHitAndRunModLauncher/Hacks/Trainer.md", // TODO: idk where tf to put these?
 								{
 									type: "Group",
 									name: "Always Enabled Hacks",
 									children:
 									[
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/HackSupport.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/IgnoreUnsupportedDirectInputDevices.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/ModernComputerSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/ModernResolutionSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/TextBinarySearch.md",
@@ -556,6 +558,7 @@
 									children:
 									[
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/3DPhoneBoothPreviewSupport.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalQuestRewardTypes.md",
 										{
 											type: "Group",
 											name: "Additional Script Functionality",
@@ -771,6 +774,7 @@
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomBonusMissionSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomCarSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomCharacterSupport.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomCollectorCardSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomDialogueCharacterCodes.md",
 										{
 											type: "Group",
@@ -873,6 +877,7 @@
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/UnlockAllVehicles.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/UnlockBonusGame.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/VideoTextureSupport.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/WalkerCameraDataSupport.md",
 									],
 								},
 								{
@@ -881,6 +886,7 @@
 									sorting: "a-z",
 									children:
 									[
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/AnalogueSpeedometer.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/Antialiasing.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/AspectRatioSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/Borderless.md",
@@ -891,6 +897,8 @@
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/DiscordRichPresence.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/FlippableCars.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/FrameLimiter.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/FrameRateCounter.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/FreeCamera.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/FreeRoam.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/HoverCarRefraction.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/InteriorJumping.md",
@@ -903,20 +911,26 @@
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoAudio.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoAutomaticSavedGameLoad.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoCheats.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoCoins.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoCursorUntilMouseMove.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoExplosionExitDelay.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoFastCarReset.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoGags.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoGoToObjectiveCameraFocus.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoHitAndRunMusic.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoHitAndRuns.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoIntroductionMovies.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoJumpLimit.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoMainMenuCameraAnimations.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoMissionStartCameras.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoMuteOnDefocus.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoPauseOnDefocus.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoPedestrians.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoRenderer.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoSavedGames.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoSuppressedDrivers.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoTimeLimits.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoTraffic.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoWrenches.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NVIDIAHighlights.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/OneTapPlayerCarDeath.md",
@@ -924,6 +938,7 @@
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/RebindableMenuGamepadInputs.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/ReplayableBonusMissions.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/ResizableWindow.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/RestoreWaspDestroyDialog.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/Screenshots.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/SkipMainMenu.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/SkippableFMVs.md",
@@ -944,6 +959,7 @@
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/DebugHashes.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/DebugTest.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/DebugText.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/DeveloperKeys.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/ForceMissionSelectLevelReload.md",
 									],
 								},
@@ -952,12 +968,14 @@
 									name: "Advanced Hacks",
 									children:
 									[
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/AmbientCarSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/AnalogueMouseInput.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomAudioFormatSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomControllerSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomMainMenuItems.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomSaveData.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomVertexShaderSupport.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/DearImgui.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/DebugCommunication.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/InterprocessCommunication.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/LoadManagerThreadCoordination.md",
