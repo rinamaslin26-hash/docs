@@ -39,3 +39,14 @@ The **Licenses** tab, previously located on the Launcher Settings window, has al
 
 # Mod Features
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/ModFeatures.md }}
+
+# New Mods
+## Analogue Speedometer Resources
+Added this new framework that provides resources for the new Analogue Speedometer hack.
+
+This was previously part of the Multiplayer Resources framework.
+
+## Multiplayer Resources
+Added this new framework that provides resources for the new Multiplayer hack.
+
+This was previously distributed as part of separate "SHAR MP" builds of the Mod Launcher.

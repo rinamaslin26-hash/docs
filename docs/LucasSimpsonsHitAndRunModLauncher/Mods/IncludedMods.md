@@ -6,6 +6,20 @@ authors: [ 2 ]
 
 This page explains what the various mods included with the Mod Launcher do.
 
+# Analogue Speedometer Resources
+**Added in Version 1.27.**
+
+Provides resources for the [[../Hacks/AnalogueSpeedometer.md]] hack.
+
+This is a Framework and cannot be enabled manually in the Mods List.
+
+# Multiplayer Resources
+**Added in Version 1.27.**
+
+Provides resources for the [[../Hacks/Multiplayer.md]] hack.
+
+This is a Framework and cannot be enabled manually in the Mods List.
+
 # No Audio
 **Added in Version 1.23.2.**
 
