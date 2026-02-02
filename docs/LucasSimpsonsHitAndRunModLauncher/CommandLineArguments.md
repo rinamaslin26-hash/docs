@@ -179,7 +179,7 @@ Re-enables the "token" field on the "Account..." window that was removed in 1.22
 
 Specify a custom Donut Team URL to use for Donut Team Account Integration. 
 
-Must be on `donutteam.com`, `localhost` or a subdomain of those domains. Prior to Version 1.27, `lucasstuff.com` was also supported.
+Must be on `donutteam.com`, `localhost` or a subdomain of those domains.
 
 ```text
 -apiurl "https://api.donutteam.com/"
@@ -888,7 +888,7 @@ Hides the update hyperlink on the Main Window added in 1.22.
 
 Allows you to override the URL used to check for updates.
 
-Must be on `donutteam.com`, `localhost` or a subdomain of those domains. Prior to Version 1.27, `lucasstuff.com` was also supported.
+Must be on `donutteam.com`, `localhost` or a subdomain of those domains.
 
 ```text
 -updatecheckurl "donutteam.com"
@@ -1340,6 +1340,8 @@ These command line arguments only take effect when the [[Hacks/CustomCarSupport.
 **Added in Version 1.22.**
 
 Disables the hack dynamically re-mapping car indices to avoid conflicts between mods.
+
+As of **Version 1.27**, this is now also respected by the Mod Launcher itself when checking for conflicts between mods.
 
 ```text
 -nocarindexmapping
