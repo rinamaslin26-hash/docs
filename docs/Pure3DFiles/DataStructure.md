@@ -23,14 +23,14 @@ This page outlines what primitives and data types you will encounter in Pure3D f
 | bool      | 4 bytes                |
 
 # Data Types
-| Data Type          | Data Size | Structure                                                                                                                                                                              |
-|--------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Vector2            | 8 bytes   | float X, float Y                                                                                                                                                                       |
-| Vector3            | 12 bytes  | float X, float Y, float Z                                                                                                                                                              |
-| Quaternion         | 16 bytes  | float W, float X, float Y, float Z                                                                                                                                                     |
-| Matrix4x4          | 64 bytes  | float M11, float M12, float M13, float M14,<br>float M21, float M22, float M23, float M24,<br>float M31, float M32, float M33, float M34<br>float M41, float M42, float M43, float M44 |
-| SymmetricMatrix3x3 | 24 bytes  | float XX, float XY, float XZ,<br>float YY, float YZ,<br>float ZZ                                                                                                                       |
-| Colour             | 4 bytes   | uint8 R, uint8 G, uint8 B, uint8 A                                                                                                                                                     |
+| Data Type          | Data Size | Structure                                                                                                                                                                               |
+|--------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Vector2            | 8 bytes   | float X, float Y                                                                                                                                                                        |
+| Vector3            | 12 bytes  | float X, float Y, float Z                                                                                                                                                               |
+| Quaternion         | 16 bytes  | float W, float X, float Y, float Z                                                                                                                                                      |
+| Matrix4x4          | 64 bytes  | float M11, float M12, float M13, float M14,<br>float M21, float M22, float M23, float M24,<br>float M31, float M32, float M33, float M34,<br>float M41, float M42, float M43, float M44 |
+| SymmetricMatrix3x3 | 24 bytes  | float XX, float XY, float XZ,<br>float YY, float YZ,<br>float ZZ                                                                                                                        |
+| Colour             | 4 bytes   | uint8 R, uint8 G, uint8 B, uint8 A                                                                                                                                                      |
 
 # File Signatures
 | Hex Signature | Text Signature | Description              |
