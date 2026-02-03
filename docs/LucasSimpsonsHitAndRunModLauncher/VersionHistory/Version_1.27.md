@@ -199,3 +199,7 @@ Added this new hack that adds an ingame window for tweaking game parameters on t
 Added this new hack that restores support for the Walker Camera Data chunk in P3D files.
 
 [[../Hacks/WalkerCameraDataSupport.md|Learn More]]
+
+# Updated Hacks
+## General
+Fixed a crash when activating the Cheat Keys phonebooth when one or more loaded mods had a `CustomShopSupport.xml` containing one or more `<PhoneBooth>` elements containing one or more `<Selector>` elements with a `Locator` attribute.
