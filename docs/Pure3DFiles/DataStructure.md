@@ -57,13 +57,16 @@ If the file was not compressed to begin with or has been decompressed, you can t
 
 There can be 0 or more chunks following the header and each is structured similarly to the file itself:
 
-| Property   | Data Type | Description                                                       |
-|------------|-----------|-------------------------------------------------------------------|
-| Type       | int32     | An identifier indicating what type of chunk this is.              |
-| HeaderSize | int32     | The size of the chunk's header and data.                          |
-| Size       | int32     | The size of the chunk's header and data, as well as its children. |
+| Property  | Data Type            | Description                                                           |
+|-----------|----------------------|-----------------------------------------------------------------------|
+| Type      | int32                | An identifier indicating what type of chunk this is.                  |
+| ChunkSize | int32                | The size of the chunk's header and **Data**.                          |
+| Size      | int32                | The size of the chunk's header and **Data**, as well as its children. |
+| Data      | byte[ChunkSize - 12] | The chunk's data.                                                     |
 
-Child chunks are stored after the chunk's header.
+What **Data** is depends on the **Type** of the chunk. Data structures for individual chunks can be found on their respective pages.
+
+Child chunks are stored after the chunk's header and its **Data**.
 
 # LZR Compression
 TODO
