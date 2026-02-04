@@ -62,4 +62,5 @@ Game.CloseStage()
 {{ endtabs }}
 
 # Notes
-Lua scripts can also use the global [[../../CustomFiles/LuaTables/Cheat.md]] table in place of the bit flags or strings, for convenience.
+* {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ConditionalEvaluation.md }}
+* {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/CheatTable.md }}
