@@ -579,7 +579,9 @@
 															children:
 															[
 																"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/IfAllCheatsEnabled.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/IfAllMissionsCompleted.md",
 																"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/IfAnyCheatEnabled.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/IfAnyMissionCompleted.md",
 															],
 														},
 														{
