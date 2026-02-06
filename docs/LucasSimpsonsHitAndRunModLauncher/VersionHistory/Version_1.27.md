@@ -220,3 +220,6 @@ Fixed a crash when activating the Cheat Keys phonebooth when one or more loaded 
 
 ## Aspect Ratio Support
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/AspectRatioSupport.md }}
+
+## Bug Fixes
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/BugFixes.md }}
