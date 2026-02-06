@@ -5,6 +5,16 @@ description: "This page lists all of the Console Commands added by the Additiona
 
 This page lists all of the Console Commands added by the Additional Script Functionality hack.
 
+# General Commands
+* [[IfAllCheatsEnabled.md]]
+* [[IfAllMissionsCompleted.md]]
+* [[IfAnyCheatEnabled.md]]
+* [[IfAnyMissionCompleted.md]]
+* [[IfCurrentCar.md]]
+* [[IfCurrentLevel.md]]
+* [[IfCurrentSkin.md]]
+* [[IfRewardUnlocked.md]]
+
 # CON Commands
 * [[SetConditionalParameter.md]]
 * [[SetWheelieOffsetX.md]]
@@ -23,6 +33,7 @@ This page lists all of the Console Commands added by the Additional Script Funct
 	* [[SetHitAndRunDecayInterior.md]]
 	* [[SetHitAndRunFine.md]]
 * **Mission Initialisation**
+	* [[IfStartedInCar.md]]
 	* [[SetHUDMapDrawable.md]]
 	* [[SetParkedCarsEnabled.md]]
 	* [[SetPedsEnabled.md]]
@@ -71,6 +82,7 @@ This page lists all of the Console Commands added by the Additional Script Funct
 			* [[SetObjCanSkip.md]]
 			* [[SetObjDecay.md]]
 			* [[SetObjExplosion.md]]
+			* [[SetObjFailDistance.md]]
 			* [[SetObjMessageIndex.md]]
 			* [[SetObjNoLetterbox.md]]
 			* [[SetObjSound.md]]
