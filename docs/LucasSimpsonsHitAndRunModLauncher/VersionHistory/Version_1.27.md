@@ -214,3 +214,6 @@ Fixed a crash when activating the Cheat Keys phonebooth when one or more loaded 
 
 ## Additional Script Functionality
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/AdditionalScriptFunctionality.md }}
+
+## Analogue Mouse Input
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/AnalogueMouseInput.md }}
