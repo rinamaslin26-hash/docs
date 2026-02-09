@@ -152,6 +152,7 @@ These hacks may be useful for mod developers.
 | [[DebugTest.md]]                     | 1.17             |
 | [[DebugText.md]]                     | 1.17             |
 | [[ForceMissionSelectLevelReload.md]] | 1.18             |
+| [[TextNames.md]]                     | 1.27             |
 
 # Advanced Hacks
 These hacks are internal hacks that contain shared functionality used by multiple other hacks.
