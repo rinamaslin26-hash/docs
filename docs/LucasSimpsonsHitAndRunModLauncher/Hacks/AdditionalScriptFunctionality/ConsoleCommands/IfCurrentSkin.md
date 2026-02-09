@@ -28,7 +28,7 @@ Game.IfCurrentSkin( ...skins )
 {{ endtabs }}
 
 * **...skins**: List up to 15 skin names to check as separate arguments.
-	* Car names are case-insensitive.
+	* Skin names are case-insensitive.
 
 # Examples
 {{ tabs }}
