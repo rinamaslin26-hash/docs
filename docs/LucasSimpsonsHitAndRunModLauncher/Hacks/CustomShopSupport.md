@@ -162,6 +162,9 @@ These properties have been superseded by new properties in other sections. They 
 {{ endtabs }}
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.25/Hacks/CustomShopSupport.md }}
+
 ## Version 1.25
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.25/Hacks/CustomShopSupport.md }}
 
