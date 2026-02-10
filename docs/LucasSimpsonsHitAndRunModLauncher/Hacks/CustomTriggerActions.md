@@ -66,6 +66,7 @@ To configure this hack, create a file named `CustomTriggerActions.ini` and add t
 		; Mission: The condition will be true if the player is currently in this mission.
 		; UnlockedMission: The condition will be true if the player has this mission unlocked.
 		; CompletedMission: The condition will be true if the player has this mission completed.
+		; Setting: The condition will be true if the specified mod setting has the specified value.
 	; Not: Set if this will be true when the condition is NOT met instead of when it is. Defaults to 0.
 	
 		; Car/PlayerCar Types
@@ -100,6 +101,13 @@ To configure this hack, create a file named `CustomTriggerActions.ini` and add t
 	; BestTime: Set the best time required in seconds.
 		; The game only saves a best time for street races (bonus mission 1-3) if they have a timer.
 		; The game only saves a best time for wager races if they're actually a wager race.
+
+		; Setting Type
+	; SettingName: The name of the Setting to check.
+	; SettingValue: The value the setting must have for the condition to be true.
+		; For TickBox settings, valid values are "true", "false", "1" or "0"
+	; ModName: The mod name the Setting is in.
+		; Optional, defaults to the mod the Condition is declared in.
 
 ; [Trigger] Section
 	; Name: The name of the trigger (referenced by a CustomTriggerAction).
@@ -181,6 +189,9 @@ Condition=IsL1M2Unlocked
 This hack registers a debug mode for the [[DebugText.md]] hack when used alongside it.
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/1.27/Hacks/CustomTriggerActions.ini }}
+
 ## Version 1.23.6
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/1.23.6/Hacks/CustomTriggerActions.ini }}
 

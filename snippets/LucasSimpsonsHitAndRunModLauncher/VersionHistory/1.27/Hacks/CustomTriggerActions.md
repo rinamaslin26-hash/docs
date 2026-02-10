@@ -1,0 +1,2 @@
+* Added an assert when there is a `Condition` or `Conditions` type `[Condition]` section that does not specify any other `[Condition]`s to check.
+* Added a new `Setting` type for `[Condition]` sections that allows checking settings of the current mod or other mods.
