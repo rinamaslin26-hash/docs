@@ -278,6 +278,9 @@ Fixed a crash when activating the Cheat Keys phonebooth when one or more loaded 
 ## Debug Text
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/DebugText.md }}
 
+## Discord Rich Presence
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/DiscordRichPresence.md }}
+
 ## File System RCFs
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/FileSystemRCFs.md }}
 

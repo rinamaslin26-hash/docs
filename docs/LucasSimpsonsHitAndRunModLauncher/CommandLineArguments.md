@@ -1534,6 +1534,8 @@ Prevents this hack from telling Discord the command to start the Mod Launcher.
 ## -nodiscordrichpresence
 **Added in Version 1.23.8.**
 
+**Removed in Version 1.27.**
+
 This prevents the hack from actually communicating with Discord for testing purposes. It will still output information to the console.
 
 ```text
