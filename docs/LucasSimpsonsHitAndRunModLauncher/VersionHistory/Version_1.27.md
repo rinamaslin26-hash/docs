@@ -266,6 +266,9 @@ Fixed a crash when activating the Cheat Keys phonebooth when one or more loaded 
 ## Custom Interior Support
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CustomInteriorSupport.md }}
 
+## Custom Shop Support
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CustomShopSupport.md }}
+
 ## Unlock All Outfits
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/UnlockAllOutfits.md }}
 
