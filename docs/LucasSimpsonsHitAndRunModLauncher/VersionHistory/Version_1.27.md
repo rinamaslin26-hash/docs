@@ -214,6 +214,13 @@ This was previously part of the [[../Hacks/Multiplayer.md]] hack, but is now a s
 
 [[../Hacks/NoTraffic.md|Learn More]]
 
+## Per Level Coin Count
+Added this new hack that makes each level have a separate coin count.
+
+Mods can also require and configure this hack to make only specific levels share coin counts, such as Level 1 and Level 7 in the base game to give Homer his own coins.
+
+[[../Hacks/PerLevelCoinCount.md|Learn More]]
+
 ## Restore Wasp Destroy Dialog
 Added this new hack that restores dialog for destroying wasp cameras.
 
