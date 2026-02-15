@@ -1,0 +1,1 @@
+Increased the limit on **Maximum Car Health Values in Save Data** from **60** to **Infinite**.
