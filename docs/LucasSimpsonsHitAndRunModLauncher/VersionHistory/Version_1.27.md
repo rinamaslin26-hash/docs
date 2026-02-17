@@ -74,15 +74,6 @@ Removed this mod. Use the new Developer Keys hack to toggle showing text names o
 Removed this mod. The existing Unlock All Outfits, Unlock All Vehicles and Unlock Bonus Game hacks are now mod hacks instead.
 
 # New Hacks
-## Additional Quest Reward Types
-Added this new hack that adds additional quest reward types.
-
-Currently, this hack only fixes the partially broken existing `cards` reward type so you can add a `car` reward for collecting all cards in a level that works properly.
-
-By default, there is no indicator you unlocked a reward but mods can use the Custom Text hack to tweak the text shown when collecting all cards to convey this.
-
-[[../Hacks/AdditionalQuestRewardTypes.md|Learn More]]
-
 ## Ambient Car Support
 Added this new advanced hack that provides other hacks the ability to spawn arbitrary cars.
 
@@ -102,6 +93,21 @@ Added this new hack that lets you customise character quote icons, the number of
 
 [[../Hacks/CustomCollectorCardSupport.md|Learn More]]
 
+## Custom Dutch Angle NPC Camera Tilt
+Added this new hack that allows mods to enable the camera tilting near NPCs, like it normally does in vanilla Level 7, in whatever levels they like with a configuration file to customise the angle.
+
+[[../Hacks/CustomDutchAngleNPCCameraTilt.md|Learn More]]
+
+## Custom Mod Save Data
+Added this new hack that allows mods to save and load custom values to the player's save data via various other hacks, such as [[../Hacks/CustomFiles/Intro.md]].
+
+[[../Hacks/CustomModSaveData.md|Learn More]]
+
+## Custom Reward Quest Support
+Added this new hack that expands base game reward quest types, adds several new ones and more.
+
+[[../Hacks/CustomRewardQuestSupport.md|Learn More]]
+
 ## DearImgui Support
 Added this new advanced hack that provides other hacks the ability to render stuff on top of the game using [DearImgui](https://github.com/ocornut/imgui).
 
@@ -113,6 +119,15 @@ Added this new hack that adds key binds that are useful for mod developers.
 This hack was originally called "Map Test Keys" but was renamed to "Developer Keys" per Lord Loren's demand.
 
 [[../Hacks/DeveloperKeys.md|Learn More]]
+
+## Drunk Camera
+Added this new hack that makes the camera wobble side to side, as though you are drunk. Probably fun for challenge runs or if you enjoy motion sickness!
+
+How intense the effect is can be customized with settings.
+
+This hack is the result of a dumb joke made while we were working on Custom Dutch Angle NPC Camera Tilt.
+
+[[../Hacks/DrunkCamera.md|Learn More]]
 
 ## Frame Rate Counter
 Added this new hack that renders a frame rate counter on top of the game, with various options to configure it.
@@ -273,6 +288,9 @@ Fixed a crash when activating the Cheat Keys phonebooth when one or more loaded 
 
 ## Custom Interior Support
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CustomInteriorSupport.md }}
+
+## Custom Save Data
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CustomSaveData.md }}
 
 ## Custom Shop Support
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CustomShopSupport.md }}

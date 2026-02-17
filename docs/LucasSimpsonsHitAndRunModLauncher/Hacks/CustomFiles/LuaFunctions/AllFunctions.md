@@ -14,6 +14,12 @@ These are general functions.
 * [[Pause.md]]
 * [[WildcardMatch.md]]
 
+# Custom Save Data Functions
+These are functions for getting and setting custom save data values.
+* [[GetCustomSaveDataValue.md]]
+* [[GetCustomSaveDataValues.md]]
+* [[SetCustomSaveDataValue.md]]
+
 # Dialog Functions
 These are functions for showing various types of popup dialogs.
 * [[Alert.md]]

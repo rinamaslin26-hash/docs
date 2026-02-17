@@ -16,7 +16,7 @@ This hack adds additional quest reward types.
 To require this hack, add this line to your mod's Meta.ini:
 
 ```ini
-RequiredHack=AdditionalQuestRewardTypes
+RequiredHack=CustomRewardQuestSupport
 ```
 
 # Base Game Quest Types
@@ -204,13 +204,13 @@ Unlocks a reward when a player successfully evades the specified number of Hit &
 {{ tab MFK }}
 ```
 // Unlock the 70s Sports Car if the player successfully avoids the police 10 times in Level 1
-BindReward("homer_v", "art\cars\homer_v.p3d", "car", "hitandrun", 1, 10);
+BindReward("homer_v", "art\cars\homer_v.p3d", "car", "evaded", 1, 10);
 ```
 {{ endtab }}
 {{ tab Lua }}
 ```lua
 -- Unlock the 70s Sports Car if the player successfully avoids the police 10 times in Level 1
-Game.BindReward("homer_v", "art\\cars\\homer_v.p3d", "car", "hitandrun", 1, 10)
+Game.BindReward("homer_v", "art\\cars\\homer_v.p3d", "car", "evaded", 1, 10)
 ```
 {{ endtab }}
 {{ endtabs }}
@@ -221,13 +221,13 @@ Unlocks a reward when a player gets busted during a Hit & Run the specified numb
 {{ tab MFK }}
 ```
 // Unlock the 70s Sports Car if the player gets caught by the police 10 times in Level 1
-BindReward("homer_v", "art\cars\homer_v.p3d", "car", "hitandrun", 1, 10);
+BindReward("homer_v", "art\cars\homer_v.p3d", "car", "busted", 1, 10);
 ```
 {{ endtab }}
 {{ tab Lua }}
 ```lua
 -- Unlock the 70s Sports Car if the player gets caught by the police 10 times in Level 1
-Game.BindReward("homer_v", "art\\cars\\homer_v.p3d", "car", "hitandrun", 1, 10)
+Game.BindReward("homer_v", "art\\cars\\homer_v.p3d", "car", "busted", 1, 10)
 ```
 {{ endtab }}
 {{ endtabs }}
@@ -258,7 +258,7 @@ Game.BindReward("cDuff", "art\\cars\\cDuff.p3d", "car", "getin", 1, "schoolbu")
 {{ endtabs }}
 
 ## doorbell
-Unlocks a reward for pressing a doorbell with the given character.
+Unlocks a reward for pressing a doorbell with the given character (case-sensitive).
 {{ tabs }}
 {{ tab MFK }}
 ```
@@ -273,6 +273,8 @@ Game.BindReward("rocke_v", "art\\cars\\rocke_v.p3d", "car", "doorbell", 1, "quim
 ```
 {{ endtab }}
 {{ endtabs }}
+
+The character name for a doorbell is defined in the `ObjectName` field of an [[/Pure3DFiles/ChunkTypes/Locator.md|Action Locator]], prefixed with `DB_`. For example, the base game's `art\l1z4.p3d` contains such a locator with an `ObjectName` of `DB_quimby`, which is used in the above example.
 
 ## maxcoins
 Unlocks a reward when a player reaches the specified amount of coins or greater.

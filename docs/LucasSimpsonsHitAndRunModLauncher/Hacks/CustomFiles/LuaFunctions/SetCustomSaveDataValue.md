@@ -17,7 +17,8 @@ SetCustomSaveDataValue( value_name, value )
 
 ## Arguments
 * **value_name** (string): The name of the value.
-* **value** (boolean | integer | number | string): The value to store in the save data.
+* **value** (boolean | integer | number | string | nil): The value.
+	* Setting a value to `nil` will delete it from the save file.
 	* Other types, such as tables, will throw an error.
 
 ## Return Values

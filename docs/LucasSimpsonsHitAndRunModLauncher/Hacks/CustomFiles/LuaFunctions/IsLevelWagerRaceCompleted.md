@@ -12,7 +12,7 @@ Checks if the given wager race is completed.
 
 # Syntax
 ```lua
-IsLevelGambleRaceCompleted( level )
+IsLevelWagerRaceCompleted( level )
 ```
 
 ## Arguments
@@ -24,8 +24,8 @@ IsLevelGambleRaceCompleted( level )
 
 # Examples
 ```lua
-local GambleRaceCompleted = IsLevelGambleRaceCompleted(1)
-if GambleRaceCompleted then
+local WagerRaceCompleted = IsLevelWagerRaceCompleted(1)
+if WagerRaceCompleted then
 	-- Do something if Homer has completed a wager with the mob
 end
 ```
