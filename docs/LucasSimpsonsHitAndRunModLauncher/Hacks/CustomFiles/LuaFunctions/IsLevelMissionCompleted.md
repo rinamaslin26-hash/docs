@@ -20,7 +20,7 @@ IsLevelMissionCompleted( level, mission )
 	* Between 1 and 7 *or* the max `Levels` set by the [[../../CustomStatsTotals.md]] hack, if it is loaded.
 * **mission** (integer): The mission to check.
 	* For Level 1, between 0 and 7 *or* the max `StoryMissions` set for the level by the [[../../CustomStatsTotals.md]] hack, if it is loaded.
-	* For Levels 2-7, between 0 and 7 *or* the max `StoryMissions` set for the level by the [[../../CustomStatsTotals.md]] hack, if it is loaded.
+	* For Levels 2-7, between 1 and 8 *or* the max `StoryMissions` set for the level by the [[../../CustomStatsTotals.md]] hack, if it is loaded.
 
 ## Return Values
 * (boolean | nil): If the player has completed the mission or `nil` if unavailable.
