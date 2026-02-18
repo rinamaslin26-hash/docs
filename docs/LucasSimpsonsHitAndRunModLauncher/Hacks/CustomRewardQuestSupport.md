@@ -19,6 +19,33 @@ To require this hack, add this line to your mod's Meta.ini:
 RequiredHack=CustomRewardQuestSupport
 ```
 
+Your mod can provide a configuration file when requiring this hack.
+
+# Configuring This Hack
+To configure this hack, create a file named `CustomRewardQuestSupport.ini` and add the parameters necessary for your mod inside it.
+
+```ini
+[ShowQuestComplete]
+; (quest name)
+;	Configure whether to show a message when completing various quest types.
+;	Defaults to 1 for all quest types except "BonusMission" and "StreetRace",
+;	 which already have ways to inform the player they unlocked something.
+Cards=1
+StreetRace=0
+BonusMission=0
+Wasps=1
+Gags=1
+Mission=1
+Wager=1
+Coins=1
+HitAndRun=1
+Evaded=1
+Busted=1
+GetIn=1
+Doorbell=1
+MaxCoins=1
+```
+
 # Base Game Quest Types
 ## General
 This hack reimplements all base game quest types to support multiple rewards per quest type, such as having multiple default cars/skins or multiple street race rewards. 
