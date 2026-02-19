@@ -77,8 +77,14 @@ This hack registers several debug modes for the [[DebugText.md]] hack when used 
 # Version History
 This hack changes in practically every version of the Mod Launcher to accommodate other hacks so only some specific changes are listed here.
 
+## Version 1.26
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.26/Hacks/HackSupport.md }}
+
 ## Version 1.25.1
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.25.1/Hacks/HackSupport.md }}
+
+## Version 1.24
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.24/Hacks/HackSupport.md }}
 
 ## Version 1.23.10
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.10/Hacks/HackSupport.md }}

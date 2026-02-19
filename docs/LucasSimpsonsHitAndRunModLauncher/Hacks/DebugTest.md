@@ -19,6 +19,9 @@ TODO
 TODO
 
 # Version History
+## Version 1.26
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.26/Hacks/DebugTest.md }}
+
 ## Version 1.23.10
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.10/Hacks/DebugTest.md }}
 
@@ -39,6 +42,15 @@ TODO
 
 ## Version 1.19
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.19/Hacks/DebugTest.md }}
+
+## Version 1.18.3
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18.3/Hacks/DebugTest.md }}
+
+## Version 1.18.2
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18.2/Hacks/DebugTest.md }}
+
+## Version 1.18.1
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18.1/Hacks/DebugTest.md }}
 
 ## Version 1.18
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/DebugTest.md }}

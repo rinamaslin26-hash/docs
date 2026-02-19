@@ -42,6 +42,9 @@ WagerRace=Example Wager Race
 This hack is affected by certain [[../CommandLineArguments.md]] for the Mod Launcher.
 
 # Version History
+## Version 1.26
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.26/Hacks/DiscordRichPresence.md }}
+
 ## Version 1.23.10
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.10/Hacks/DiscordRichPresence.md }}
 
