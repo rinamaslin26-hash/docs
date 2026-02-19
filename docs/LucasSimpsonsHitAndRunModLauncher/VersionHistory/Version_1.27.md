@@ -57,6 +57,11 @@ Added this new framework that provides resources for the new Multiplayer hack.
 
 This was previously distributed as part of separate "SHAR MP" builds of the Mod Launcher.
 
+## Per Character Coin Count
+Added this new mod that uses the new Per Level Coin Count hack to give all characters in the base game their own wallets.
+
+This means Homer has his own wallet shared across Levels 1 and 7, Bart has his own wallet shared across Levels 2 and 6, and all other characters have their own wallets for their respective levels.
+
 # Removed Mods
 ## No Audio
 Removed this mod. Use the existing No Audio mod hack instead.
