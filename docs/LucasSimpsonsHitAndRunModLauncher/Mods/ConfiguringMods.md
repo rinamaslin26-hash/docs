@@ -659,6 +659,9 @@ EncryptionMaximumSize=1024000	; Encrypt everything that's 100KB or under.
 ## 1.26
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.26/ModFeatures.md }}
 
+## 1.25.1
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.25.1/ModFeatures.md }}
+
 ## 1.23.10
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.10/ModFeatures.md }}
 
@@ -673,6 +676,9 @@ EncryptionMaximumSize=1024000	; Encrypt everything that's 100KB or under.
 
 ## 1.23.2
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.2/ModFeatures.md }}
+
+## 1.22.3
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22.3/ModFeatures.md }}
 
 ## 1.22.2
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22.2/ModFeatures.md }}
