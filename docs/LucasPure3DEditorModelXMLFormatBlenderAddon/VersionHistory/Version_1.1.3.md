@@ -26,7 +26,7 @@ description: "Changelog for Version 1.1.3 of Lucas' Pure3D Editor Model XML Form
 	* Blender versions lower than 2.74 cannot import normals. Blender will generate normals instead, which happens anyways when editing models in any version.
 * Changed the target version of the add-on to Blender 2.80. 
 	* This change is required for Blender 2.80 or newer to load the add-on.
-	* This will cause older versions of Blender to show [a warning](/img/lucaspure3deditor/blender-target-version-warning.png) about this when first enabled but the addon will still work properly in those versions.
+	* This will cause older versions of Blender to show [a warning](/img/LucasPure3DEditorModelXMLFormatBlenderAddon/BlenderTargetVersionWarning.png) about this when first enabled but the addon will still work properly in those versions.
 * Added the "Use Modifiers Render Settings" tickbox when exporting. This is disabled by default.
 	* Also renamed the "Apply modifiers (preview resolution)" tickbox to "Apply modifiers".
 	* This change is copied from [a change in Blender's OBJ exporter](https://github.com/blender/blender-addons/commit/a746a84f8aaf3a4843eb3f4ce3f5a0464872077a) in Blender 2.79.

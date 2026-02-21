@@ -16,7 +16,7 @@ authors: [ 2 ]
     * These tools export and import all intersects in a file to/from OBJ files.
         * These files contain OBJ groups that are separated by surface type.
         * To maintain these, you must make sure you're re-exporting the file with OBJ Groups in your 3D modelling software.
-            * In Blender, you would want to make sure [this is ticked](/img/lucaspure3deditor/blender-obj-groups-tickbox.png).
+            * In Blender, you would want to make sure [this is ticked](/img/LucasPure3DEditor/BlenderObjGroupsTickbox.png).
     * The Export tool is only shown if the loaded file contains "Intersect" chunks.
     * The Import tool will remove all intersects in the file and create new ones on the end of the file that are split to fit the standard tree node size.
         * You should keep the original mesh you import somewhere due to the fact it gets split every time you import it.
