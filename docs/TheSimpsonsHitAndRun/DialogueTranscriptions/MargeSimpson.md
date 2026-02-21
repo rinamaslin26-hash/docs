@@ -61,7 +61,7 @@ This page has transcriptions of Marge Simpson's dialogue.
 | conversations/c_tractor_3_convinit_mrg_l4.rsd       | Well, I certainly could use a tractor around the house for hauling away Homer's empties...                                                                                                                                                                 |
 | conversations/c_violent_2_convinit_mrg_l1m6.rsd     | Not now Homer! A new violent video game has hit the streets and we need to get rid of it before it warps any children with its bloops and bleeps.                                                                                                          |
 | conversations/c_violent_4_convinit_mrg_l1m6.rsd     | And therefore should be destroyed!             
-                                                                                                                                                                                                            |
+
 # marge Folder
 | File                                 | Transcription                                                                         |
 |--------------------------------------|---------------------------------------------------------------------------------------|
