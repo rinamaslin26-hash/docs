@@ -22,6 +22,8 @@ Enables advanced logging features.
 
 Sets the path to the server's configuration file.
 
+This will create the file if it doesn't exist.
+
 ```sh
 ./SHARMPServer --config "C:\Users\Homer\Desktop\MySHARMPServerConfig.yaml"
 ```
