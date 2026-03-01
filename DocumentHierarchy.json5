@@ -584,7 +584,7 @@
 						"LucasSimpsonsHitAndRunMapDataViewer/Intro.md",
 						{
 							type: "Group",
-							name: "Lucas' Simpsons Hit & Run Map Data Viewer",
+							name: "Version History",
 							children:
 							[
 								"LucasSimpsonsHitAndRunMapDataViewer/VersionHistory/AllVersions.md",
