@@ -189,6 +189,7 @@ In addition to this, the following changes were made:
 	* Husks are not currently supported and are fully disabled.
 * No longer requires the No Wrenches hack.
 * Now requires the new No Explosion Exit Delay hack.
+* Added a new Player Listing that displays the names of all players in the same level as you, as well as their ping.
 * Added " (Beta)" to the end of the hack's title to indicate this is still very much a work-in-progress.
 * Now requires the Unlock All Outfits hack.
 * Now requires the Unlock All Vehicles hack.

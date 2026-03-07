@@ -1,7 +1,7 @@
 ---
 title: "Configuration"
 description: "This page documents the configuration file for the Simpsons Hit & Run Multiplayer Server."
-authors: [ 2 ]
+authors: [ 2, 1 ]
 ---
 
 This page documents the configuration file for the Simpsons Hit & Run Multiplayer Server.
@@ -47,19 +47,28 @@ The maximum amount of connected players.
 
 **Default**: `32`
 
-## donutTeamAPIKey
+## apiEndpoint
 **Added in Version 1.0.**
 
-Unused. Reserved for future use.
+Unused; reserved for future use.
 
 **Type**: `string`
 
 **Default**: `''`
 
-## globalServerListing
+## apiKey
 **Added in Version 1.0.**
 
-Unused. Reserved for future use.
+Unused; reserved for future use.
+
+**Type**: `string`
+
+**Default**: `''`
+
+## broadcastServer
+**Added in Version 1.0.**
+
+Unused; reserved for future use.
 
 **Type**: `boolean`
 
@@ -69,6 +78,8 @@ Unused. Reserved for future use.
 **Added in Version 1.0.**
 
 Set whether to allow players to chat ingame.
+
+When disabled, players will not be able to send chat messages, however commands are still allowed.
 
 **Type**: `boolean`
 
@@ -206,8 +217,9 @@ serverName: My SHAR MP "Server"
 password: ''
 port: 7777
 maxPlayers: 32
-donutTeamAPIKey: ''
-globalServerListing: false
+apiEndpoint: ''
+apiKey: ''
+broadcastServer: false
 allowInGameTextChat: true
 updateInterval: 60
 updateIntervalLowBandwidth: 400
