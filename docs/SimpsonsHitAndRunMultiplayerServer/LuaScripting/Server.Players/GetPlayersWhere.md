@@ -12,7 +12,7 @@ Returns a filtered table of currently connected players matching the given filte
 
 # Syntax
 ```lua
-Server.Players.GetPlayersWhere( filters )
+Server.Players.GetPlayersWhere( filters, [ caseInsensitive ] )
 ```
 ## Arguments
 * **filters** (table, optional): A table of key-value pairs to filter players by. Supported keys are:
@@ -20,6 +20,7 @@ Server.Players.GetPlayersWhere( filters )
   * **discriminator** (string): Matches players by their discriminator.
   * **mainMod** (MainMod): Matches players by their selected main mod.
   * **session** (Session): Matches players by their session.
+* **caseInsensitive** (boolean, optional): Whether string filters should be matched in a case-insensitive manner. Defaults to true.
 
 ## Return Values
 * (table): A table of Player objects matching all provided filters.
@@ -27,7 +28,7 @@ Server.Players.GetPlayersWhere( filters )
 # Examples
 ```lua
 local filters = { name = "loren" }
-local players = Server.Players.GetPlayersWhere(filters)
+local players = Server.Players.GetPlayersWhere(filters, false)
 for i = 1, #players do
     local player = players[i]
     player:Kick("Get back to work on Donut Mod, " .. player.Name .. "!")
