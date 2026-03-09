@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 441 # 1.0
 ---
 
-Triggers a specified event with optional arguments. This can be used to trigger custom events that other scripts, or mods, can listen for using [[Server.AddEventListener.md]].
+Triggers a specified event with optional arguments. This can be used to trigger custom events that other scripts, or mods, can listen for using [[AddEventListener.md]].
 
 # Syntax
 ```lua

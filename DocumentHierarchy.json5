@@ -1302,7 +1302,7 @@
 												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendDeleteMissionRadarIcon.md",
 												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendGameChatMessage.md",
 												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendGamePlayerCharacterJump.md",
-												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendGamePlayerKick.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendGamePlayerCharacterKick.md",
 												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendGamePlayerSetNameAndRole.md",
 												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendGameResync.md",
 												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SetDynaloadData.md",
@@ -1319,7 +1319,8 @@
 											],
 										},
 									],
-								},	
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Events.md",
 								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Cryptography.md",
 								{
 									type: "Group",
@@ -1447,6 +1448,7 @@
 												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.Commands/Register.md",
 											],
 										},
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.CurrentMod.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.Players.md",
 										{
 											type: "Group",
