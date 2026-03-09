@@ -20,4 +20,10 @@ The following functions from the `os` library are blocked:
 * `os.remove` - Deletes a file. This is blocked to prevent mods from deleting important files on the server. Use [[LuaScripting/File/Delete.md]] instead.
 * `os.rename` - Renames a file. This is blocked to prevent mods from renaming important files on the server. Use [[LuaScripting/File/Write.md]] to write to a new file and then delete the old file if needed.
 * `os.tmpname` - Generates a temporary file name. This is blocked to prevent mods from creating temporary files that could clutter the server's file system or be used for malicious purposes.
-* `os.setlocale` - Sets the current locale. This is blocked to prevent mods from changing the locale settings of the server, which could affect the behavior of other mods or the server itself.
+* `os.setlocale` - Sets the current locale. This is blocked to prevent mods from changing the locale settings of the server.
+
+# `load`, `loadfile`, `loadstring`, and `dofile`
+Use [[LuaScripts/File.md]] to load Lua code from files in a safe manner if needed.
+
+# `require` and `package`
+Use [[LuaScripts/File.md]] to load Lua code from files in a safe manner if needed.

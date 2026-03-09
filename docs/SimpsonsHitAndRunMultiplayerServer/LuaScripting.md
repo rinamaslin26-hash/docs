@@ -40,12 +40,12 @@ In addition to the functions provided by the tables listed above, there are also
 |-----------------------------|------------------------------------------------------------------------------|
 | [[LuaScripting/print_r.md]] | A function that takes a Lua object and prints it in a human-readable format. |
 
-# Return Types
+# Data Structures
 
-In some cases, functions may return data structures that represent certain concepts on the server such as players and characters. These can be used to manipulate those concepts in various ways. The following return types are currently available:
+In some cases, functions may return data structures that represent certain concepts on the server such as players and characters. These can be used to manipulate those concepts in various ways. The following data structures are currently available:
 
-| Return Type                        | Description                                   |
-|------------------------------------|-----------------------------------------------|
+| Data Structure                        | Description                                   |
+|---------------------------------------|-----------------------------------------------|
 | [[DataStructures/Configuration.md]]   | Data representing the server's configuration. |
 | [[DataStructures/Player.md]]          | Data representing a player on the server.     |
 | [[DataStructures/PlayerCharacter.md]] | Data representing a player's character.       |
