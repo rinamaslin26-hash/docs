@@ -930,6 +930,7 @@
 															[
 																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCustomSaveDataValue.md",
 																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCustomSaveDataValues.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetModsWithCustomSaveData.md",
 																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/SetCustomSaveDataValue.md",
 															],
 														},

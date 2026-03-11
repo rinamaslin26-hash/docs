@@ -6,6 +6,15 @@ authors: [ 2 ]
 
 # Launcher
 ## General
+* Now prevents pinning the game executable to the taskbar.
+	* Also added `-nopreventgamepinning` command line argument to disable this.
+* Now sets the icon of console windows to the current main mod's icon, if there is one and it has an icon.
+	* Also added `-noconsolemodicon` command line argument to disable this.
+* Now sets a default app ID on the game, constructed as follows:
+	* `LucasSimpsonsHitAndRunModLauncher`
+	* If it is a public testing build, `PublicTesting` is appended.
+	* If a main mod is enabled, `.<MainModInternalName>` is appended.
+	* Also added the `-nogameappid` command line argument to disable this.
 * Made the Mod Launcher itself respect the `-nocarindexmapping` [[../CommandLineArguments.md|command line argument]] during conflict checking.
 * Fixed an issue that prevented encrypted mods from loading.
 * Updated the Mod Launcher's copyright information.
@@ -55,7 +64,9 @@ This was previously part of the Multiplayer Resources framework.
 ## Multiplayer Resources
 Added this new framework that provides resources for the new Multiplayer hack.
 
-This was previously distributed as part of separate "SHAR MP" builds of the Mod Launcher.
+A different version of this was previously distributed as part of separate "SHAR MP" builds of the Mod Launcher.
+
+This new version reworks many changes to be done dynamically with [LuaP3DLib](https://github.com/Hampo/LuaP3DLib) to make the file size smaller and also to avoid shipping base game assets with the Mod Launcher.
 
 ## Per Character Coin Count
 Added this new mod that uses the new Per Level Coin Count hack to give all characters in the base game their own wallets.
@@ -291,6 +302,9 @@ Added this new hack that restores support for the Walker Camera Data chunk in P3
 ## Custom Audio Support
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CustomAudioSupport.md }}
 
+## Custom Bonus Mission Support
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CustomBonusMissionSupport.md }}
+
 ## Custom Files
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CustomFiles.md }}
 
@@ -309,11 +323,17 @@ Added this new hack that restores support for the Walker Camera Data chunk in P3
 ## Custom Trigger Actions
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CustomTriggerActions.md }}
 
+## Debug Checks
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/DebugChecks.md }}
+
 ## Debug Test
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/DebugTest.md }}
 
 ## Debug Text
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/DebugText.md }}
+
+## Direct3D 9
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/Direct3D9.md }}
 
 ## Discord Rich Presence
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/DiscordRichPresence.md }}

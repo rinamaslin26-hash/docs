@@ -47,6 +47,15 @@ Launches the Mod Launcher directly into Launcher Settings.
 -launchersettings
 ```
 
+## -nocheckmodchanges
+**Added in Version 1.21.**
+
+Makes it so the Mod Launcher does not keep track of Meta.ini files changing.
+
+```text
+-nocheckmodchanges
+```
+
 ## -nocommandlinefile
 **Added in Version 1.20.**
 
@@ -56,13 +65,13 @@ Prevents the Mod Launcher from loading command line arguments out of `CommandLin
 -nocommandlinefile
 ```
 
-## -nocheckmodchanges
-**Added in Version 1.21.**
+## -noconsolemodicon
+**Added in Version 1.27.**
 
-Makes it so the Mod Launcher does not keep track of Meta.ini files changing.
+Prevents the Mod Launcher from using the current main mod's icon, if one is enabled and it has an icon, on any console windows it creates.
 
 ```text
--nocheckmodchanges
+-noconsolemodicon
 ```
 
 ## -nodeleteold
@@ -92,6 +101,15 @@ Disables warnings shown when mods that specify one are ticked in the Mods List.
 
 ```text
 -nomodenablewarnings
+```
+
+## -nopreventgamepinning
+**Added in Version 1.27.**
+
+Prevents the Mod Launcher from preventing you from pinning the game's executable to the taskbar.
+
+```text
+-nopreventgamepinning
 ```
 
 ## -nounhandledexceptionhandler
@@ -226,6 +244,15 @@ This also disables the updating of Jump Lists as they work considerably better w
 
 ```text
 -noappid
+```
+
+## -nogameappid
+**Added in Version 1.27.**
+
+Prevents the Mod Launcher from setting an app ID on the game, as it does starting in Version 1.27.
+
+```text
+-nogameappid
 ```
 
 # Appearance

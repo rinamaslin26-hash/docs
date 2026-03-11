@@ -35,3 +35,4 @@
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCustomSaveDataValue.md]] function.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/SetCustomSaveDataValue.md]] function.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCustomSaveDataValues.md]] function.
+* Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetModsWithCustomSaveData.md]] function.

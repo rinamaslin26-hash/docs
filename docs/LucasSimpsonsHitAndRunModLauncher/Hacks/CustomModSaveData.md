@@ -11,3 +11,8 @@ initialVersion:
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/Advanced.md }}
 
 This hack allows mods to save and load custom values to the player's save data via various other hacks, such as [[CustomFiles/Intro.md]].
+
+# Debug Text Mode
+This hack registers a debug mode for the [[DebugText.md]] hack for each enabled mod when used alongside it.
+
+These debug modes show the values in the current save file for each mod.
