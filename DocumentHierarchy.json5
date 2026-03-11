@@ -1337,8 +1337,8 @@
 									name: "DateTime Functions",
 									children:
 									[
-										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DateTime/date.md",
-										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DateTime/now.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DateTime/Date.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DateTime/Now.md",
 									],
 								},
 								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DB.md",
@@ -1426,6 +1426,7 @@
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/Delete.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/Exists.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/ReadAll.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/ReadOffset.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/Require.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/RequireOnce.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/Write.md",
@@ -1475,12 +1476,35 @@
 								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String.md",
 								{
 									type: "Group",
+									name: "String Enumerations",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/StringComparison.md",
+									]
+								},
+								{
+									type: "Group",
 									name: "String Functions",
 									children:
 									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/Contains.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/EndsWith.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/GUID.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/IsEmpty.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/Join.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/Random.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/Split.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/StartsWith.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/Trim.md",
+									],
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/System.md",
+								{
+									type: "Group",
+									name: "System Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/System/Sleep.md",
 									],
 								},
 								{
