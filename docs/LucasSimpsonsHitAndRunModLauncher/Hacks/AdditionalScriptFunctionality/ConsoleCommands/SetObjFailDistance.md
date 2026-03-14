@@ -66,6 +66,3 @@ Game.CloseObjective()
 ```
 {{ endtab }}
 {{ endtabs }}
-
-# Notes
-{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ConditionalEvaluation.md }}
