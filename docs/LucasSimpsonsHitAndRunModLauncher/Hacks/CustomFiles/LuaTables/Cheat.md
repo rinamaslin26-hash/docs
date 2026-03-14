@@ -12,21 +12,21 @@ A table of cheat flags for various functions, such as the [[../LuaFunctions/IsCh
 
 | Member                        | Value   |
 |-------------------------------|---------|
-| Cheat.UnlockAllOutfits        | 4       |
-| Cheat.UnlockAllStoryMissions  | 8       |
-| Cheat.UnlockAllMovies         | 16      |
-| Cheat.UnlockAllRewardVehicles | 32      |
-| Cheat.NoTopSpeed              | 128     |
-| Cheat.HighAcceleration        | 256     |
-| Cheat.CarJumpOnHorn           | 512     |
-| Cheat.FlamingCar              | 1024    |
-| Cheat.OneTapTrafficDeath      | 2048    |
-| Cheat.x5StageTime             | 4096    |
-| Cheat.KickSwapsCharacterModel | 16384   |
-| Cheat.UnlockAllCameras        | 65536   |
-| Cheat.PlayCreditsDialogue     | 262144  |
-| Cheat.ShowSpeedometer         | 524288  |
-| Cheat.RedBrick                | 1048576 |
-| Cheat.InvincibleCar           | 2097152 |
-| Cheat.ShowTree                | 4194304 |
-| Cheat.Trippy                  | 8388608 |
+| Cheat.UnlockAllOutfits        | 1 << 2  |
+| Cheat.UnlockAllStoryMissions  | 1 << 3  |
+| Cheat.UnlockAllMovies         | 1 << 4  |
+| Cheat.UnlockAllRewardVehicles | 1 << 5  |
+| Cheat.NoTopSpeed              | 1 << 7  |
+| Cheat.HighAcceleration        | 1 << 8  |
+| Cheat.CarJumpOnHorn           | 1 << 9  |
+| Cheat.FlamingCar              | 1 << 10 |
+| Cheat.OneTapTrafficDeath      | 1 << 11 |
+| Cheat.x5StageTime             | 1 << 12 |
+| Cheat.KickSwapsCharacterModel | 1 << 14 |
+| Cheat.UnlockAllCameras        | 1 << 16 |
+| Cheat.PlayCreditsDialogue     | 1 << 18 |
+| Cheat.ShowSpeedometer         | 1 << 19 |
+| Cheat.RedBrick                | 1 << 20 |
+| Cheat.InvincibleCar           | 1 << 21 |
+| Cheat.ShowTree                | 1 << 22 |
+| Cheat.Trippy                  | 1 << 23 |
