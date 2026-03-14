@@ -25,6 +25,11 @@ Makes the hack show an error message when a composite drawable is not found.
 
 **Defaults to Enabled.**
 
+## Missing Detection > Frame Controller Animation/Hierarchy
+Makes the hack show an error message when a frame controller's animation or hierarchy could not be found.
+
+**Defaults to Disabled because each of Radical's levels has about two dozen borked frame controllers.**
+
 ## Use Legacy Names
 Makes the hack use older, unofficial chunk names.
 
