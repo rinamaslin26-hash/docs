@@ -25,6 +25,12 @@ The known issues here are reflective of the current version of the Mod Launcher.
 	* **Introduced**: Version 1.27
 	* **Status**: Investigating
 
+## Custom Reward Quest Support
+* Skin shops will sometimes show the wrong level's rewards (which are any skins besides `forsale` skins, including `defaultskin` skins).
+	* What level's rewards are shown is determined by what level you were in the last time something queried the number of unlocked cars, such as opening the "Level Progress" menu.
+	* **Introduced**: Version 1.27
+	* **Status**: Fixed in Future Update
+
 ## Dear Imgui
 * Certain elements or text, such as the chat box in the Multiplayer hack, may overflow ImGui related containers slightly in Direct3D 8.
 	* **Introduced**: Version 1.27
@@ -34,6 +40,11 @@ The known issues here are reflective of the current version of the Mod Launcher.
 * The game will crash on startup if you have a main mod enabled that does not have a `Title` set in its Meta.ini
 	* **Introduced**: Version 1.27
 	* **Status**: Fixed in Future Update
+
+## Free Camera and No Clip
+* Interacting with an InteriorEntrance Locator while in No Clip mode will result in being stuck on the loading screen.
+	* **Introduced**: Version 1.27
+	* **Status**: Investigating
 
 ## Multiplayer
 * The game may crash when certain HUD icons are updated at the server's request.
