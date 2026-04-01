@@ -137,7 +137,7 @@ These are commands used in a level's initialisation script (`leveli.mfk`).
 * **Bonus Mission NPCs**
 	* AddBonusMissionNPCWaypoint
 	* [[AddNPCCharacterBonusMission.md]]
-	* ClearAmbientAnimations
+	* [[ClearAmbientAnimations.md]]
 	* SetBonusMissionDialoguePos
 * **Car Shop NPCs**
 	* AddPurchaseCarNPCWaypoint

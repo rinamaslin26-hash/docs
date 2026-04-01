@@ -364,7 +364,10 @@
 																	name: "Bonus Mission NPCs",
 																	children:
 																	[
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddAmbientNpcAnimation.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddAmbientPcAnimation.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPCCharacterBonusMission.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ClearAmbientAnimations.md",
 																	],
 																},
 																{
@@ -442,6 +445,8 @@
 																			name: "Objectives",
 																			children:
 																			[
+																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddAmbientNpcAnimation.md",
+																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddAmbientPcAnimation.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddDriver.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPC.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddObjective.md",

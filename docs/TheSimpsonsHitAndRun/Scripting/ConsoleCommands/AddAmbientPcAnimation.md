@@ -28,9 +28,9 @@ Game.AddAmbientPcAnimation( animation, [bonus mission name] )
     * This argument is only used for bonus missions and street races, valid arguments are `bm1`, `sr1`, `sr2`, and `sr3`.
 
 # Examples
+# Normal Mission
 {{ tabs }}
 {{ tab MFK }}
-# Normal Mission
 ```js
 AddStage();
 	AddObjective("dialogue");
@@ -51,8 +51,12 @@ Game.AddStage()
 	Game.CloseObjective()
 Game.CloseStage()
 ```
+{{ endtab }}
+{{ endtabs }}
 
 # Bonus Mission (leveli.mfk)
+{{ tabs }}
+{{ tab MFK }}
 ```js
 AddNPCCharacterBonusMission("milhouse", "npd", "sr1_mhouse_sd", "sr1", "checkered", "intro", 0, "checkeredfinish");
 SetBonusMissionDialoguePos("sr1", "sr1_player", "sr1_mhouse_sd", "level1_carstart");

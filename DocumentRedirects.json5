@@ -49,6 +49,8 @@
 	"hitandrun/scripting/conditions/timeout": "TheSimpsonsHitAndRun/Scripting/MissionConditions/timeout",
 
 	"hitandrun/scripting/mfk-commands/activatevehicle": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ActivateVehicle",
+	"hitandrun/scripting/mfk-commands/addambientnpcanimation": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddAmbientNpcAnimation",
+	"hitandrun/scripting/mfk-commands/addambientpcanimation": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddAmbientPcAnimation",
 	"hitandrun/scripting/mfk-commands/addcondition": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddCondition",
 	"hitandrun/scripting/mfk-commands/adddriver": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddDriver",
 	"hitandrun/scripting/mfk-commands/addobjective": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddObjective",
@@ -61,6 +63,7 @@
 	"hitandrun/scripting/mfk-commands/addstagevehicle": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStageVehicle",
 	"hitandrun/scripting/mfk-commands/addtrafficmodel": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddTrafficModel",
 	"hitandrun/scripting/mfk-commands/bindreward": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/BindReward",
+	"hitandrun/scripting/mfk-commands/clearambientanimations": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ClearAmbientAnimations",
 	"hitandrun/scripting/mfk-commands/closecondition": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseCondition",
 	"hitandrun/scripting/mfk-commands/closemission": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseMission",
 	"hitandrun/scripting/mfk-commands/closeobjective": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseObjective",
