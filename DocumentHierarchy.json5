@@ -1338,6 +1338,7 @@
 									name: "Advanced Hacks",
 									children:
 									[
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/AmbientCarSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/AnalogueMouseInput.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomAudioFormatSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomControllerSupport.md",
