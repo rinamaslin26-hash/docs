@@ -313,6 +313,16 @@
 															[
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/InitLevelPlayerVehicle.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/LoadP3DFile.md",
+																{
+																	type: "Group",
+																	name: "Dialogue",
+																	children:
+																	[
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddAmbientNpcAnimation.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddAmbientPcAnimation.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ClearAmbientAnimations.md",
+																	],
+																},
 															],
 														},
 														{
@@ -364,10 +374,7 @@
 																	name: "Bonus Mission NPCs",
 																	children:
 																	[
-																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddAmbientNpcAnimation.md",
-																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddAmbientPcAnimation.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPCCharacterBonusMission.md",
-																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ClearAmbientAnimations.md",
 																	],
 																},
 																{
@@ -445,8 +452,6 @@
 																			name: "Objectives",
 																			children:
 																			[
-																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddAmbientNpcAnimation.md",
-																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddAmbientPcAnimation.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddDriver.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPC.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddObjective.md",
@@ -1333,7 +1338,6 @@
 									name: "Advanced Hacks",
 									children:
 									[
-										"LucasSimpsonsHitAndRunModLauncher/Hacks/AmbientCarSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/AnalogueMouseInput.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomAudioFormatSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomControllerSupport.md",
