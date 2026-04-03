@@ -1581,6 +1581,17 @@
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/Write.md",
 									],
 								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/HTTP.md",
+								{
+									type: "Group",
+									name: "HTTP Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/HTTP/Get.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/HTTP/Post.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/HTTP/Request.md",
+									],
+								},
 								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.md",
 								{
 									type: "Group",
@@ -1644,6 +1655,7 @@
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/Random.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/Split.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/StartsWith.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/ToJSON.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/Trim.md",
 									],
 								},
@@ -1672,6 +1684,7 @@
 							children:
 							[
 								"SimpsonsHitAndRunMultiplayerServer/VersionHistory/AllVersions.md",
+								"SimpsonsHitAndRunMultiplayerServer/VersionHistory/Version_1.1.md",
 								"SimpsonsHitAndRunMultiplayerServer/VersionHistory/Version_1.0.1.md",
 								"SimpsonsHitAndRunMultiplayerServer/VersionHistory/Version_1.0.md",
 							],
