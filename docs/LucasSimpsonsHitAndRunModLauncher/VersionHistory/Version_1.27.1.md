@@ -8,7 +8,7 @@ authors: [ 2 ]
 
 # Launcher
 ## General
-* Potential fixed one way Jump Lists could crash the Mod Launcher.
+* Potentially fixed one way Jump Lists could crash the Mod Launcher.
 
 ## Mod Settings
 * Made it so you can now bind `KeyCode` settings to the Enter key.
