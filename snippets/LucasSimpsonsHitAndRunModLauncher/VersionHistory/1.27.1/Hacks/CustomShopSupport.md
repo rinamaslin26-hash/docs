@@ -1,1 +1,1 @@
-Made it so `HideLocked` does nothing when the **Unlock All Vehicles** hack is enabled.
+Fixed a bug where `HideLocked` didn't respect the **Unlock All Vehicles** hack being enabled.
