@@ -95,11 +95,11 @@ author: "Rina"
 |witchcar      |Witch Broom                   |Traffic      |7         |
 |zombi_v       |Zombie Car                    |"Simpson"    |7         |
 
-“Simpson” is the internal name for a non Gil car seller IE Barney et al
+“Simpson” is the internal name for a non Gil car seller IE Barney et al (<br>)  
 The TT is totally unused & has broken stats though there are mods out there that fix the broken nature of the vehicle
 
-Addy has further documents on other details to do with the games cars, these can be found below:
+Addy has further documents on other details to do with the games cars, these can be found below: (<br>)  
 In the sounds one you will find * used these are included to indicate that a sound for a vehicle doesn’t exist
-[Stats: ] (https://github.com/CelestialAddy/SHR-InfoDumps/blob/main/InfoDumps/VehicleConfigurations.csv)
-[Stars: ] (https://github.com/CelestialAddy/SHR-InfoDumps/blob/main/InfoDumps/VehicleStatStars.csv)
-[Sounds: ] (https://github.com/CelestialAddy/SHR-InfoDumps/blob/main/InfoDumps/VehicleSounds.csv )
+[Stats: ](https://github.com/CelestialAddy/SHR-InfoDumps/blob/main/InfoDumps/VehicleConfigurations.csv)
+[Stars: ](https://github.com/CelestialAddy/SHR-InfoDumps/blob/main/InfoDumps/VehicleStatStars.csv)
+[Sounds: ](https://github.com/CelestialAddy/SHR-InfoDumps/blob/main/InfoDumps/VehicleSounds.csv )
