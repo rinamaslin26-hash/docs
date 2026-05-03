@@ -3,7 +3,7 @@ description: "This document pertains to all the basic information to do with the
 author: "Rina"
 
 |Internal Name |Name                          |Notes        |Level     |
-|--------------|------------------------------|-------------!----------|
+|--------------|------------------------------|-------------|----------|
 |ambul         |Ambulance                     |Traffic      |5         |         
 |apu_v         |Longhorn                      |Starting     |5         |
 |atv_v         |ATV                           |Static/Free  |4         | 
