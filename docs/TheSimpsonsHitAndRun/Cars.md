@@ -99,7 +99,7 @@ author: "Rina"
 The TT is totally unused & has broken stats though there are mods out there that fix the broken nature of the vehicle
 
 Addy has further documents on other details to do with the games cars, these can be found below: <br> 
-In the sounds one you will find * used these are included to indicate that a sound for a vehicle doesn’t exist
-[Stats: ](https://github.com/CelestialAddy/SHR-InfoDumps/blob/main/InfoDumps/VehicleConfigurations.csv)
-[Stars: ](https://github.com/CelestialAddy/SHR-InfoDumps/blob/main/InfoDumps/VehicleStatStars.csv)
+In the sounds one you will find * used these are included to indicate that a sound for a vehicle doesn’t exist <br> 
+[Stats: ](https://github.com/CelestialAddy/SHR-InfoDumps/blob/main/InfoDumps/VehicleConfigurations.csv) <br> 
+[Stars: ](https://github.com/CelestialAddy/SHR-InfoDumps/blob/main/InfoDumps/VehicleStatStars.csv) <br> 
 [Sounds: ](https://github.com/CelestialAddy/SHR-InfoDumps/blob/main/InfoDumps/VehicleSounds.csv )
