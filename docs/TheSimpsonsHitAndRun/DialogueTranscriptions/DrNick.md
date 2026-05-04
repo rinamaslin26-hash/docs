@@ -16,16 +16,18 @@ This page has transcriptions of Dr. Nick's dialogue.
 | conversations/c_monkey(2)_6_convinit_nic_l2m6.rsd | Because! I have tortured them horribly, silly!                                        |       |
 
 # dr.nick Folder
-| dr.nick/p_hitbyc_nic_01.rsd                               | ye everybody!                                                                         |                            |
-| dr.nick/p_hitbyc_nic_02.rsd                               | h no, blood! Oh, ohh.                                                                 |                            |
-| dr.nick/p_hitbyc_nic_blood.rsd                            | h gross, blood.                                                                       |                            |
-| dr.nick/p_hitbyc_nic_place.rsd                            | omebody take me to the operating place!                                               |                            |
-| dr.nick/p_hitbyw_nic_sex.rsd                              | on't come crying to me when you need a sex change!                                    |                            |
-| dr.nick/p_hitbyw_nic_wanta.rsd                            | eriously baby, I can prescribe anything I want.                                       |                            |
-| dr.nick/p_hitbyw_nic_you.rsd                              | atch out, everybody!                                                                  |                            |
-| dr.nick/p_nhitbyc_nic_01.rsd                              | ey, you drive as well as I practice medicine!                                         |                            |
-| dr.nick/p_nhitbyc_nic_02.rsd                              | ou're the Dr. Nick of driving.                                                        |                            |
-| dr.nick/p_nhitbyc_nic_watch.rsd                           | atch where you're going, silly person!                                                |                            |
+| File                                                      | Transcription                                                                         | Notes                      |
+|-----------------------------------------------------------|---------------------------------------------------------------------------------------|----------------------------|
+| dr.nick/p_hitbyc_nic_01.rsd                               | Bye everybody!                                                                        |                            |
+| dr.nick/p_hitbyc_nic_02.rsd                               | Oh no, blood! Oh, ohh.                                                                |                            |
+| dr.nick/p_hitbyc_nic_blood.rsd                            | Oh gross, blood.                                                                      |                            |
+| dr.nick/p_hitbyc_nic_place.rsd                            | Somebody take me to the operating place!                                              |                            |
+| dr.nick/p_hitbyw_nic_sex.rsd                              | Don't come crying to me when you need a sex change!                                   |                            |
+| dr.nick/p_hitbyw_nic_wanta.rsd                            | Seriously baby, I can prescribe anything I want.                                      |                            |
+| dr.nick/p_hitbyw_nic_you.rsd                              | Watch out, everybody!                                                                 |                            |
+| dr.nick/p_nhitbyc_nic_01.rsd                              | Hey, you drive as well as I practice medicine!                                        |                            |
+| dr.nick/p_nhitbyc_nic_02.rsd                              | You're the Dr. Nick of driving.                                                       |                            |
+| dr.nick/p_nhitbyc_nic_watch.rsd                           | Watch where you're going, silly person!                                               |                            |
 | dr.nick/w_doorbell_nic_medical01.rsd                      | Oh no, I hope that's not the coroner again. I am so sick of that guy!                 | This dialogue is filtered. |
 | dr.nick/w_doorbell_nic_medical02.rsd                      | Go away! I had almost nothing to do with that ebola outbreak, OK?!                    | This dialogue is filtered. |
 | dr.nick/w_doorbell_nic_medical03.rsd                      | Nice monkey, get back in the torture box!                                             | This dialogue is filtered. |
